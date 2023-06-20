@@ -1,0 +1,53 @@
+\documentclass[11pt]{article}
+\usepackage[UTF8]{ctex}
+\usepackage[a4paper,left=25mm,right=25mm,top=25mm]{geometry}
+\usepackage{xeCJKfntef}\usepackage{amsmath, amsfonts,amssymb}   %数学符号
+\newcommand{\onp} [4] { \\
+    \begin{tabular} {*{4}{@{}p{3.5cm}}}
+        A.~#1 & B.~#2 & C.~#3 & D.~#4
+    \end{tabular}
+}
+\newcommand{\twp} [4] { \\
+    \begin{tabular} {*{2}{@{}p{7cm}}}
+        A.~#1 & B.~#2
+    \end{tabular} \\
+    \begin{tabular} {*{2}{@{}p{7cm}}}
+        C.~#3 & D.~#4
+    \end{tabular}
+}
+\newcommand{\fop} [4] { \\
+    A.~#1 \\
+    B.~#2 \\
+    C.~#3 \\
+    D.~#4
+}
+\newcommand{\smallpicture}[2]{\includegraphics[scale = #2]{#1}}
+\usepackage{graphicx}  %插图包
+\usepackage{paralist}  %序号包
+\newcommand {\pbox} [3] {
+    \unitlength=1mm
+    \begin{picture} (0, 0)
+        \put (#1, #2) {#3}
+    \end{picture}
+}
+\begin{document}
+\section*{\centering 试卷标题}
+\section*{\normalsize 一、选择题(每小题3分)}
+\begin{enumerate}\setcounter{enumi}{0}
+    \item 设集合$U=\{1,2,3,4,5,6\}$，$A=\{1,3,6\}$，$B=\{2,3,4\}$，则$A\cap(\complement_UB)$=
+    \onp{\{3\}}{\{1,6\}}{\{5,6\}}{\{1,3\}}
+    \item 已知函数$f(x)$的定义域为$\mathbb{R}$，$f(x+2)$为偶函数，$f(2x+1)$为奇函数，则
+    \twp{$f(-\frac{1}{2})=0$}{$f(-1)=0$}{$f(2)=0$}{$f(4)=0$}
+    \item 某物理量的测量结果服从正态分布$N(10, \sigma^2)$，下列结论中不正确的是
+    \fop{$\sigma$越小，该物理量在一次测量 中在(9.9, 10.1)的概率越大}
+    {$\sigma$越小，该物理量在一次测量中大于10的概率为0.5}
+    {$\sigma$越小，该物理量在一次测量中小于9.99与大于10.01的概率相等}
+    {$\sigma$越小，该物理量在一次测量中落在(9.9, 10.2)与落在(10, 10.3)的概率相等}
+    \item 在四棱锥$Q-ABCD$中，底面$ABCD$是正方形，若$AD=2$，$QD=QA=\sqrt{5}$，$QC=3$，
+    \begin{compactenum}[(1)]
+        \item 证明：平面$QAD$$\bot$平面$ABCD$；
+        \item 求二面角$B-QD-A$的平面角的余弦值. \\
+        \pbox {0}{-18} {\smallpicture{testgraph.png}{1}}
+    \end{compactenum}
+\end{enumerate}
+\end{document}
