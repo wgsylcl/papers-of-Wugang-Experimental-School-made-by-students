@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 23.4) (preloaded format=xelatex 2023.4.18)  22 JUN 2023 12:36
+This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 23.4) (preloaded format=xelatex 2023.4.18)  1 JUL 2023 07:59
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -751,16 +751,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 138--138
  []
 
 [6]
-File: T24.png Graphic file (type bmp)
-<T24.png>
-File: T24.png Graphic file (type bmp)
-<T24.png>
+File: T24_3.png Graphic file (type bmp)
+<T24_3.png>
+File: T24_4.png Graphic file (type bmp)
+<T24_4.png>
  [7] (端午福利.aux) ) 
 Here is how much of TeX's memory you used:
- 9401 strings out of 411463
- 241437 string characters out of 5822270
+ 9418 strings out of 411463
+ 241711 string characters out of 5822270
  1864290 words of memory out of 5000000
- 29545 multiletter control sequences out of 15000+600000
+ 29562 multiletter control sequences out of 15000+600000
  515886 words of font info for 62 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  89i,11n,97p,405b,352s stack positions out of 10000i,1000n,20000p,200000b,200000s
