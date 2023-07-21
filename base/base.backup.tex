@@ -1,7 +1,23 @@
-\documentclass[11pt]{article}
+\documentclass[10pt]{article}
 \usepackage[UTF8]{ctex}
-\usepackage[a4paper,left=25mm,right=25mm,top=25mm]{geometry}
-\usepackage{xeCJKfntef}\usepackage{amsmath, amsfonts,amssymb}   %数学符号
+\usepackage[a4paper,left=15mm,right=15mm,top=19mm]{geometry}
+\usepackage{xeCJKfntef}
+\usepackage{fontspec}
+\usepackage{amsmath,amsfonts,amssymb}
+\usepackage{tikz}
+\usepackage{pifont}
+\usepackage{subfigure}
+\usepackage{caption}
+\usetikzlibrary{arrows.meta}
+\renewcommand{\figurename}{}
+\renewcommand{\thesubfigure}{（\arabic{subfigure}）}
+\makeatletter \renewcommand{\@thesubfigure}{\thesubfigure \space}
+\renewcommand{\p@subfigure}{} \makeatother
+\setmainfont{Times New Roman}
+\newcommand{\circnum}[1]{\ding{\numexpr171+#1\relax}}
+\newcommand{\addspace}{\\ \hspace*{\fill} \\\\ \hspace*{\fill} \\\\ \hspace*{\fill} \\\\ \hspace*{\fill} \\\\ \hspace*{\fill}}
+\renewcommand{\underline}{\_\_\_\_\_\_\_\_\_}
+\newcommand{\textdot}[1]{{\heiti \CJKunderdot{#1}}}
 %选择题盒子,1行4选项
 \newcommand{\onp} [4] { \\
     \begin{tabular} {*{4}{@{}p{3.5cm}}}
@@ -37,7 +53,8 @@
 }
 \begin{document}
 \section*{\centering 试卷标题}
-\section*{\normalsize 一、选择题(每小题3分)}
+\centerline{时间：2小时 \ \ \ \ 满分：120分}
+\section*{\normalsize 一、选择题（每小题3分，共30分）}
 \begin{enumerate}\setcounter{enumi}{0}
     \item %1
     \item %2
@@ -50,7 +67,7 @@
     \item %9
     \item %10
 \end{enumerate}
-\section*{\normalsize 二、填空题(每小题3分)}
+\section*{\normalsize 二、填空题（每小题3分，共18分）}
 \begin{enumerate}\setcounter{enumi}{10}
     \item %11
     \item %12
@@ -59,47 +76,47 @@
     \item %15
     \item %16
 \end{enumerate}
-\section*{\normalsize 三、解答题(共8题，每小题应写出文字说明、解答过程或演算步骤)}
+\section*{\normalsize 三、解答题（共8题、72分，每小题应写出文字说明、解答过程或演算步骤）}
 \begin{enumerate}\setcounter{enumi}{16}
     \item %17
-    \begin{compactenum}[(1)]
+    \begin{compactenum}[（1）]
         \item %17.1
         \item %17.2
     \end{compactenum}
     \item %18
-    \begin{compactenum}[(1)]
+    \begin{compactenum}[（1）]
         \item %18.1
         \item %18.2
     \end{compactenum}
     \item %19
-    \begin{compactenum}[(1)]
+    \begin{compactenum}[（1）]
         \item %19.1
         \item %19.2
     \end{compactenum}
-    \item %20
-    \begin{compactenum}[(1)]
+    \item
+    \begin{compactenum}[（1）]
         \item %20.1
         \item %20.2
     \end{compactenum}
     \item %21
-    \begin{compactenum}[(1)]
+    \begin{compactenum}[（1）]
         \item %21.1
         \item %21.2
     \end{compactenum}
     \item %22
-    \begin{compactenum}[(1)]
+    \begin{compactenum}[（1）]
         \item %22.1
         \item %22.2
         \item %22.3
     \end{compactenum}
     \item %23
-    \begin{compactenum}[(1)]
+    \begin{compactenum}[（1）]
         \item %23.1
         \item %23.2
         \item %23.3
     \end{compactenum}
     \item %24
-    \begin{compactenum}[(1)]
+    \begin{compactenum}[（1）]
         \item %24.1
         \item %24.2
         \item %24.3

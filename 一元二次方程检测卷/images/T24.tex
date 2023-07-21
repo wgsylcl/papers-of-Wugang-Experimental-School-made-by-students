@@ -1,0 +1,47 @@
+\documentclass[11pt]{article}
+\usepackage[UTF8]{ctex}
+\usepackage[a4paper,left=25mm,right=25mm,top=25mm]{geometry}
+\usepackage{xeCJKfntef}
+\usepackage{amsmath,amsfonts,amssymb}
+\usepackage{tikz}
+\usepackage{pifont}
+\usepackage{subfigure}
+\usepackage{caption}
+\usetikzlibrary{arrows.meta}
+\renewcommand{\figurename}{}
+\renewcommand{\thesubfigure}{（\arabic{subfigure}）}
+\makeatletter \renewcommand{\@thesubfigure}{\thesubfigure \space}
+\renewcommand{\p@subfigure}{} \makeatother
+\begin{document}
+\begin{figure*}[htb]
+    \centering
+    \subfigure[]{
+    \begin{tikzpicture}[>=Stealth,scale=0.65]
+        \draw[->] (-6.5,0)--(6.5,0) node[below] {$x$};
+        \draw[->] (0,-1)--(0,6.5) node[left] {$y$};
+        \node[below left] at (0,0) {$O$};
+        \node[right] at (0,4) {$A$};
+        \node[below] at (-5,0) {$B$};
+        \node[below] at (5,0) {$C$};
+        \draw (-5,0)--(0,4)--(5,0);
+    \end{tikzpicture}
+    }
+    \qquad
+    \subfigure[]{
+    \begin{tikzpicture}[>=Stealth,scale=0.65]
+        \draw[->] (-4.5,0)--(4,0) node[below] {$x$};
+        \draw[->] (0,-1)--(0,6.5) node[left] {$y$};
+        \node[below right] at (0,0) {$O$};
+        \node[left] at (0,5) {$A$};
+        \node[right] at (0.5,4.13397) {$E$};
+        \node[below] at (-0.4,0) {$C$};
+        \node[below right] at (0.6,0) {$D$};
+        \node[below] at (2.88675,0) {$B$};
+        \draw (0,5)--(2.88675,0);
+        \draw (0,5)--(-0.4,0);
+        \draw (-0.4,0)--(0.5,4.13397);
+        \draw (0.6,0)--(0.5,4.13397);
+    \end{tikzpicture}}
+    \caption*{（第24题）}
+\end{figure*}
+\end{document}

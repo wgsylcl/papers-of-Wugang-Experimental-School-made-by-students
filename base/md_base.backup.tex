@@ -2,8 +2,9 @@
 \usepackage[UTF8]{ctex}
 \usepackage[a4paper,left=25mm,right=25mm,top=25mm]{geometry}
 \usepackage{xeCJKfntef}
-\usepackage{amsmath, amsfonts,amssymb}
+\usepackage{amsmath,amsfonts,amssymb}
 \usepackage{markdown}
+\usepackage{pifont}
 \markdownSetup{smartEllipses = true}
 %开启后可以把markdown中的...转化为省略号
 \markdownSetup{hashEnumerators = true}
@@ -17,12 +18,13 @@
 \markdownSetup{hybrid = true}
 \markdownSetup{
   renderers = {
-    image = {\begin{figure}[htb]
-      \centering
+    image = {
       \includegraphics[scale = 1]{#3}%
-    \end{figure}},
+      },
   }
 }
+\renewcommand{\underline}{\_\_\_\_\_\_\_\_\_}
+\newcommand{\addspace}{\\ \hspace*{\fill} \\\\ \hspace*{\fill} \\\\ \hspace*{\fill} \\\\ \hspace*{\fill} \\\\ \hspace*{\fill}}
 %选择题盒子,1行4选项
 \newcommand{\onp} [4] {
     \begin{tabular} {*{4}{@{}p{3.5cm}}}
