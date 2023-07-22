@@ -1,6 +1,6 @@
 \documentclass[10pt]{article}
 \usepackage[UTF8]{ctex}
-\usepackage[a4paper,left=15mm,right=15mm,top=19mm]{geometry}
+\usepackage[a4paper,left=15mm,right=15mm,top=16mm,bottom=19mm]{geometry}
 \usepackage{xeCJKfntef}
 \usepackage{fontspec}
 \usepackage{amsmath,amsfonts,amssymb}
@@ -10,14 +10,19 @@
 \usepackage{caption}
 \usetikzlibrary{arrows.meta}
 \renewcommand{\figurename}{}
-\renewcommand{\thesubfigure}{（\arabic{subfigure}）}
+\renewcommand{\thesubfigure}{}
 \makeatletter \renewcommand{\@thesubfigure}{\thesubfigure \space}
 \renewcommand{\p@subfigure}{} \makeatother
 \setmainfont{Times New Roman}
 \newcommand{\circnum}[1]{\ding{\numexpr171+#1\relax}}
-\newcommand{\addspace}{\\ \hspace*{\fill} \\\\ \hspace*{\fill} \\\\ \hspace*{\fill} \\\\ \hspace*{\fill} \\\\ \hspace*{\fill}}
-\renewcommand{\underline}{\_\_\_\_\_\_\_\_\_}
+\newcommand{\addspace}{\hspace*{\fill} \\ \hspace*{\fill} \\\hspace*{\fill}\\ \hspace*{\fill} \\\hspace*{\fill}\\ \hspace*{\fill} \\\hspace*{\fill}}
+\newcommand{\complitingline}{\_\_\_\_\_\_\_\_\_}
 \newcommand{\textdot}[1]{{\heiti \CJKunderdot{#1}}}
+\usepackage{lastpage}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\cfoot{数学试卷~~~第\thepage 页（共 \pageref{LastPage} 页）}
+\renewcommand{\headrulewidth}{0mm}
 %选择题盒子,1行4选项
 \newcommand{\onp} [4] { \\
     \begin{tabular} {*{4}{@{}p{3.5cm}}}

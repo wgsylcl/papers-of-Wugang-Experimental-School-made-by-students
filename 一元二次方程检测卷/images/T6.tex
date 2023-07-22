@@ -14,15 +14,17 @@
 \renewcommand{\p@subfigure}{} \makeatother
 \begin{document}
 \begin{figure}[h]
-    \raggedleft
-\begin{tikzpicture}[scale=0.25]
-    \node[left] at (2.01,11.40) {$A$};
+\begin{tikzpicture}[scale=0.18]
+    \node[above] at (0,13) {$A$};
     \node[below] at (0,0) {$B$};
-    \node[below] at (4,0) {$C$};
-    \node[left] at (1.31,7.43) {$E$};
-    \node[right] at (3.31,3.94) {$F$};
-    \draw (2.01,11.40)--(0,0)--(4,0)--cycle;
-    \draw (1.31,7.43)--(3.31,3.94);
+    \node[below] at (-6,0) {$C$};
+    \node[below] at (6,0) {$F$};
+    \node[above] at (6,13) {$D$};
+    \node[below left] at (0,8) {$E$};
+    \draw (-6,0)--(0,13)--(6,13)--(0,0)--cycle;
+    \draw (0,13)--(0,0);
+    \draw (0,0)--(6,0);
+    \draw (0,8)--(6,0);
 \end{tikzpicture}
 \end{figure}
 \end{document}
