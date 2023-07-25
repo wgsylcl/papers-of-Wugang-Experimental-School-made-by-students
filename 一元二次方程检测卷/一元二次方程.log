@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 23.4) (preloaded format=xelatex 2023.4.18)  22 JUL 2023 22:27
+This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 23.4) (preloaded format=xelatex 2023.7.25)  25 JUL 2023 22:03
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -24,6 +24,12 @@ File: size10.clo 2022/07/02 v1.4n Standard LaTeX file (size option)
 \belowcaptionskip=\skip49
 \bibindent=\dimen140
 )
+(D:\MiKTex\tex/latex/mathpaper\mathpaper.sty
+Package: mathpaper 
+
+(D:\MiKTex\tex/latex/mathpicture\mathpicture.sty
+Package: mathpicture 
+
 (D:\MiKTex\tex/latex/ctex\ctex.sty
 (C:\Program Files\MiKTeX\tex/latex/l3kernel\expl3.sty
 Package: expl3 2023-03-30 L3 programming layer (loader) 
@@ -667,14 +673,7 @@ Package: subfigure 2002/07/30 v2.1.4 subfigure package
 \subfig@top=\skip69
 \subfig@bottom=\skip70
 )
-(D:\MiKTex\tex/latex/float\float.sty
-Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count330
-\float@exts=\toks36
-\float@box=\box74
-\@float@everytoks=\toks37
-\@floatcapt=\box75
-) (D:\MiKTex\tex/latex/caption\caption.sty
+(D:\MiKTex\tex/latex/caption\caption.sty
 Package: caption 2023/03/12 v3.6j Customizing captions (AR)
 
 (D:\MiKTex\tex/latex/caption\caption3.sty
@@ -689,9 +688,8 @@ Package: caption3 2023/03/12 v2.4 caption3 kernel (AR)
 \caption@hangindent=\dimen313
 Package caption Info: Standard document class detected.
 )
-\c@caption@flags=\count331
-\c@continuedfloat=\count332
-Package caption Info: float package is loaded.
+\c@caption@flags=\count330
+\c@continuedfloat=\count331
 Package caption Info: subfigure package is loaded.
 )
 (C:\Program Files\MiKTeX\tex/generic/pgf/libraries\pgflibraryarrows.meta.code.t
@@ -734,7 +732,15 @@ ext;"
 (fontspec)             Roman/BI/OT:script=latn;language=dflt;+smcp;mapping=tex-
 text;"
 
- (D:\MiKTex\tex/latex/lastpage\lastpage.sty
+ (D:\MiKTex\tex/latex/paralist\paralist.sty
+Package: paralist 2017/01/22 v2.7 Extended list environments
+\pltopsep=\skip71
+\plpartopsep=\skip72
+\plitemsep=\skip73
+\plparsep=\skip74
+\pl@lab=\toks36
+))
+(D:\MiKTex\tex/latex/lastpage\lastpage.sty
 Package: lastpage 2023/04/12 v2.0b lastpage: 2.09 or 2e? (HMM)
 
 (D:\MiKTex\tex/latex/lastpage\lastpage2e.sty
@@ -747,105 +753,97 @@ Package: lastpagemodern 2023-04-12 v2.0b Refers to last page's name (HMM; JPG)
 )) (D:\MiKTex\tex/latex/fancyhdr\fancyhdr.sty
 Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
 
-\f@nch@headwidth=\skip71
-\f@nch@O@elh=\skip72
-\f@nch@O@erh=\skip73
-\f@nch@O@olh=\skip74
-\f@nch@O@orh=\skip75
-\f@nch@O@elf=\skip76
-\f@nch@O@erf=\skip77
-\f@nch@O@olf=\skip78
-\f@nch@O@orf=\skip79
-)
-(D:\MiKTex\tex/latex/paralist\paralist.sty
-Package: paralist 2017/01/22 v2.7 Extended list environments
-\pltopsep=\skip80
-\plpartopsep=\skip81
-\plitemsep=\skip82
-\plparsep=\skip83
-\pl@lab=\toks38
-) (一元二次方程.aux)
+\f@nch@headwidth=\skip75
+\f@nch@O@elh=\skip76
+\f@nch@O@erh=\skip77
+\f@nch@O@olh=\skip78
+\f@nch@O@orh=\skip79
+\f@nch@O@elf=\skip80
+\f@nch@O@erf=\skip81
+\f@nch@O@olf=\skip82
+\f@nch@O@orf=\skip83
+)) (一元二次方程.aux)
 \openout1 = `一元二次方程.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
 
 Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
 (fontspec)             this).
 
 \symlegacymaths=\mathgroup6
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 60.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 60.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 60.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 60.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 60.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 60.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 60.
-LaTeX Font Info:    Redeclaring math accent \check on input line 60.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 60.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 60.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 60.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 60.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 60.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 60.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 60.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 60.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 60.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 60.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 60.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 60.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 60.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 60.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 60.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 60.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 3.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 3.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 3.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 3.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 3.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 3.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 3.
+LaTeX Font Info:    Redeclaring math accent \check on input line 3.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 3.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 3.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 3.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 3.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 3.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 3.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 3.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 3.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 3.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 3.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 3.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 3.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 3.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 3.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 3.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 3.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 60.
+(Font)              `operators' in the math version `normal' on input line 3.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/TimesNewRoman(0)/m/n on input line 6
-0.
+(Font)                  OT1/cmr/m/n --> TU/TimesNewRoman(0)/m/n on input line 3
+.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 60.
+(Font)              `operators' in the math version `bold' on input line 3.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  OT1/cmr/bx/n --> TU/TimesNewRoman(0)/m/n on input line 
-60.
+3.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  TU/TimesNewRoman(0)/m/n --> TU/TimesNewRoman(0)/m/n on 
-input line 60.
+input line 3.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
 (Font)                  OT1/cmr/m/it --> TU/TimesNewRoman(0)/m/it on input line
- 60.
+ 3.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
 (Font)                  OT1/cmr/bx/n --> TU/TimesNewRoman(0)/b/n on input line 
-60.
+3.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 60.
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 3.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 60.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 3.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  TU/TimesNewRoman(0)/m/n --> TU/TimesNewRoman(0)/b/n on 
-input line 60.
+input line 3.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/bx/it --> TU/TimesNewRoman(0)/b/it on input lin
-e 60.
+e 3.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 60.
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 3.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 60.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 3.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -883,13 +881,11 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 65.
-
+LaTeX Font Info:    Trying to load font information for U+msa on input line 8.
 (C:\Program Files\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 65.
-
+LaTeX Font Info:    Trying to load font information for U+msb on input line 8.
 
 (C:\Program Files\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -899,7 +895,7 @@ File: ./images/T8.png Graphic file (type bmp)
 LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/m/sl' in size <10> not avai
 lable
 (Font)              Font shape `TU/TimesNewRoman(0)/m/it' tried instead on inpu
-t line 123.
+t line 65.
  [1
 
 ]
@@ -931,12 +927,12 @@ Package fontspec Info: Font family 'SimHei(0)' created for font 'SimHei' with
 enddocument/afterlastpage: lastpage setting LastPage.
 (一元二次方程.aux) ) 
 Here is how much of TeX's memory you used:
- 22002 strings out of 411463
- 509726 string characters out of 5822270
- 1877290 words of memory out of 5000000
- 41885 multiletter control sequences out of 15000+600000
+ 21985 strings out of 411463
+ 510059 string characters out of 5822270
+ 1878290 words of memory out of 5000000
+ 41865 multiletter control sequences out of 15000+600000
  516712 words of font info for 81 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 100i,11n,104p,419b,841s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 130i,11n,132p,466b,837s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on 一元二次方程.pdf (4 pages).

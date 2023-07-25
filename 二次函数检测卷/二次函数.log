@@ -1,10 +1,10 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 23.4) (preloaded format=xelatex 2023.7.24)  24 JUL 2023 17:32
+This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 23.4) (preloaded format=xelatex 2023.7.25)  25 JUL 2023 21:24
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**./base.tex
-(base.tex
+**./二次函数.tex
+(二次函数.tex
 LaTeX2e <2022-11-01> patch level 1
 L3 programming layer <2023-03-30>
 (C:\Program Files\MiKTeX\tex/latex/base\article.cls
@@ -26,8 +26,12 @@ File: size10.clo 2022/07/02 v1.4n Standard LaTeX file (size option)
 )
 (D:\MiKTex\tex/latex/mathpaper\mathpaper.sty
 Package: mathpaper 
- (D:\MiKTex\tex/latex/ctex\ctex.sty (C:\Program Files\MiKTeX\tex/latex/l3kernel
-\expl3.sty
+
+(D:\MiKTex\tex/latex/mathpicture\mathpicture.sty
+Package: mathpicture 
+
+(D:\MiKTex\tex/latex/ctex\ctex.sty
+(C:\Program Files\MiKTeX\tex/latex/l3kernel\expl3.sty
 Package: expl3 2023-03-30 L3 programming layer (loader) 
 
 (C:\Program Files\MiKTeX\tex/latex/l3backend\l3backend-xetex.def
@@ -728,7 +732,15 @@ ext;"
 (fontspec)             Roman/BI/OT:script=latn;language=dflt;+smcp;mapping=tex-
 text;"
 
- (D:\MiKTex\tex/latex/lastpage\lastpage.sty
+ (D:\MiKTex\tex/latex/paralist\paralist.sty
+Package: paralist 2017/01/22 v2.7 Extended list environments
+\pltopsep=\skip71
+\plpartopsep=\skip72
+\plitemsep=\skip73
+\plparsep=\skip74
+\pl@lab=\toks36
+))
+(D:\MiKTex\tex/latex/lastpage\lastpage.sty
 Package: lastpage 2023/04/12 v2.0b lastpage: 2.09 or 2e? (HMM)
 
 (D:\MiKTex\tex/latex/lastpage\lastpage2e.sty
@@ -741,25 +753,17 @@ Package: lastpagemodern 2023-04-12 v2.0b Refers to last page's name (HMM; JPG)
 )) (D:\MiKTex\tex/latex/fancyhdr\fancyhdr.sty
 Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
 
-\f@nch@headwidth=\skip71
-\f@nch@O@elh=\skip72
-\f@nch@O@erh=\skip73
-\f@nch@O@olh=\skip74
-\f@nch@O@orh=\skip75
-\f@nch@O@elf=\skip76
-\f@nch@O@erf=\skip77
-\f@nch@O@olf=\skip78
-\f@nch@O@orf=\skip79
-)
-(D:\MiKTex\tex/latex/paralist\paralist.sty
-Package: paralist 2017/01/22 v2.7 Extended list environments
-\pltopsep=\skip80
-\plpartopsep=\skip81
-\plitemsep=\skip82
-\plparsep=\skip83
-\pl@lab=\toks36
-)) (base.aux)
-\openout1 = `base.aux'.
+\f@nch@headwidth=\skip75
+\f@nch@O@elh=\skip76
+\f@nch@O@erh=\skip77
+\f@nch@O@olh=\skip78
+\f@nch@O@orh=\skip79
+\f@nch@O@elf=\skip80
+\f@nch@O@erf=\skip81
+\f@nch@O@olf=\skip82
+\f@nch@O@orf=\skip83
+)) (二次函数.aux)
+\openout1 = `二次函数.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 3.
 LaTeX Font Info:    ... okay on input line 3.
@@ -877,22 +881,34 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 17.
+
+(C:\Program Files\MiKTeX\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 17.
+
+
+(C:\Program Files\MiKTeX\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
 LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/m/sl' in size <10> not avai
 lable
 (Font)              Font shape `TU/TimesNewRoman(0)/m/it' tried instead on inpu
-t line 66.
-[1
+t line 67.
+ [1
 
-] [2] 
+] [2]
+
 enddocument/afterlastpage: lastpage setting LastPage.
-(base.aux) ) 
+(二次函数.aux) ) 
 Here is how much of TeX's memory you used:
- 21746 strings out of 411463
- 501176 string characters out of 5822270
- 1856290 words of memory out of 5000000
- 41654 multiletter control sequences out of 15000+600000
- 514965 words of font info for 67 fonts, out of 8000000 for 9000
+ 21979 strings out of 411463
+ 508691 string characters out of 5822270
+ 1860290 words of memory out of 5000000
+ 41867 multiletter control sequences out of 15000+600000
+ 516696 words of font info for 79 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 115i,11n,118p,438b,451s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 130i,11n,132p,464b,724s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on base.pdf (2 pages).
+Output written on 二次函数.pdf (2 pages).

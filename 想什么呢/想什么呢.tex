@@ -1,0 +1,140 @@
+\documentclass[10pt]{article}
+\usepackage[UTF8]{ctex}
+\usepackage[a4paper,left=15mm,right=15mm,top=16mm,bottom=19mm]{geometry}
+\usepackage{xeCJKfntef}
+\usepackage{fontspec}
+\usepackage{amsmath,amsfonts,amssymb}
+\usepackage{tikz}
+\usepackage{pifont}
+\usepackage{subfigure}
+\usepackage{caption}
+\usetikzlibrary{arrows.meta}
+\renewcommand{\figurename}{}
+\renewcommand{\thesubfigure}{}
+\makeatletter \renewcommand{\@thesubfigure}{\thesubfigure \space}
+\renewcommand{\p@subfigure}{} \makeatother
+\setmainfont{Times New Roman}
+\newcommand{\circnum}[1]{\ding{\numexpr171+#1\relax}}
+\newcommand{\addspace}{\hspace*{\fill} \\ \hspace*{\fill} \\\hspace*{\fill}\\ \hspace*{\fill} \\\hspace*{\fill}\\ \hspace*{\fill} \\\hspace*{\fill}}
+\newcommand{\complitingline}{\_\_\_\_\_\_\_\_\_}
+\newcommand{\textdot}[1]{{\heiti \CJKunderdot{#1}}}
+\usepackage{lastpage}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\cfoot{数学试卷~~~第\thepage 页（共 \pageref{LastPage} 页）}
+\renewcommand{\headrulewidth}{0mm}
+%选择题盒子,1行4选项
+\newcommand{\onp} [4] { \\
+    \begin{tabular} {*{4}{@{}p{3.5cm}}}
+        A.~#1 & B.~#2 & C.~#3 & D.~#4
+    \end{tabular}
+}
+%选择题盒子,1行2选项
+\newcommand{\twp} [4] { \\
+    \begin{tabular} {*{2}{@{}p{7cm}}}
+        A.~#1 & B.~#2
+    \end{tabular} \\
+    \begin{tabular} {*{2}{@{}p{7cm}}}
+        C.~#3 & D.~#4
+    \end{tabular}
+}
+%选择题盒子,1行1选项
+\newcommand{\fop} [4] { \\
+    A.~#1 \\
+    B.~#2 \\
+    C.~#3 \\
+    D.~#4
+}
+%图片盒子 参数1为路径 2为大小
+\newcommand{\smallpicture}[2]{\includegraphics[scale = #2]{#1}}
+\usepackage{graphicx}  %插图包
+\usepackage{paralist}  %序号包
+%定位器 参数1、2为横纵坐标 3为插入盒子
+\newcommand{\pbox} [3] {
+    \unitlength=1mm
+    \begin{picture} (0, 0)
+        \put (#1, #2) {#3}
+    \end{picture}
+}
+\begin{document}
+\section*{\centering 第二十一章~~~一元二次方程}
+\centerline{时间：2小时 \ \ \ \ 满分：120分}
+\section*{\normalsize 一、选择题（每小题3分，共30分）}
+\begin{enumerate}\setcounter{enumi}{0}
+    \item 不告诉你
+    \onp{不告诉你}{不告诉你}{不告诉你}{不告诉你}
+    \item 不告诉你
+    \onp{不告诉你}{不告诉你}{不告诉你}{不告诉你}
+    \item 不告诉你
+    \onp{不告诉你}{不告诉你}{不告诉你}{不告诉你}
+    \item 不告诉你
+    \onp{不告诉你}{不告诉你}{不告诉你}{不告诉你}
+    \item 不告诉你
+    \onp{不告诉你}{不告诉你}{不告诉你}{不告诉你}
+    \item 不告诉你
+    \onp{不告诉你}{不告诉你}{不告诉你}{不告诉你}
+    \item 不告诉你
+    \onp{不告诉你}{不告诉你}{不告诉你}{不告诉你}
+    \item 不告诉你
+    \onp{不告诉你}{不告诉你}{不告诉你}{不告诉你}
+    \item 不告诉你
+    \onp{不告诉你}{不告诉你}{不告诉你}{不告诉你}
+    \item 不告诉你
+    \onp{不告诉你}{不告诉你}{不告诉你}{不告诉你}
+\end{enumerate}
+\section*{\normalsize 二、填空题（每小题3分，共18分）}
+\begin{enumerate}\setcounter{enumi}{10}
+    \item 不告诉你
+    \item 不告诉你
+    \item 不告诉你
+    \item 不告诉你
+    \item 不告诉你
+    \item 不告诉你
+\end{enumerate}
+\section*{\normalsize 三、解答题（共8题、72分，每小题应写出文字说明、解答过程或演算步骤）}
+\begin{enumerate}\setcounter{enumi}{16}
+    \item 不告诉你
+    \begin{compactenum}[（1）]
+        \item 不告诉你
+        \item 不告诉你
+    \end{compactenum}
+    \item 不告诉你
+    \begin{compactenum}[（1）]
+        \item 不告诉你
+        \item 不告诉你
+    \end{compactenum}
+    \item 不告诉你
+    \begin{compactenum}[（1）]
+        \item 不告诉你
+        \item 不告诉你
+    \end{compactenum}
+    \item 不告诉你
+    \begin{compactenum}[（1）]
+        \item 不告诉你
+        \item 不告诉你
+    \end{compactenum}
+    \item 不告诉你
+    \begin{compactenum}[（1）]
+        \item 不告诉你
+        \item 不告诉你
+    \end{compactenum}
+    \item 不告诉你
+    \begin{compactenum}[（1）]
+        \item 不告诉你
+        \item 不告诉你
+        \item 不告诉你
+    \end{compactenum}
+    \item 不告诉你
+    \begin{compactenum}[（1）]
+        \item 不告诉你
+        \item 不告诉你
+        \item 不告诉你
+    \end{compactenum}
+    \item 不告诉你
+    \begin{compactenum}[（1）]
+        \item 不告诉你
+        \item 不告诉你
+        \item 不告诉你
+    \end{compactenum}
+\end{enumerate}
+\end{document}
