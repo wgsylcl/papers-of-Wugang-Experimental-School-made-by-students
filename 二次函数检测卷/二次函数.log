@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 23.4) (preloaded format=xelatex 2023.7.25)  25 JUL 2023 21:24
+This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 23.4) (preloaded format=xelatex 2023.7.26)  26 JUL 2023 12:00
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -740,6 +740,22 @@ Package: paralist 2017/01/22 v2.7 Extended list environments
 \plparsep=\skip74
 \pl@lab=\toks36
 ))
+(D:\MiKTex\tex/latex/basicmathpaper\basicmathpaper.sty
+Package: basicmathpaper 
+
+(D:\MiKTex\tex/latex/enumitem\enumitem.sty
+Package: enumitem 2019/06/20 v3.9 Customized lists
+\labelindent=\skip75
+\enit@outerparindent=\dimen318
+\enit@toks=\toks37
+\enit@inbox=\box74
+\enit@count@id=\count332
+\enitdp@description=\count333
+)
+\c@taskcounter=\count334
+\c@subtaskcounter=\count335
+\c@subsubtaskcounter=\count336
+)
 (D:\MiKTex\tex/latex/lastpage\lastpage.sty
 Package: lastpage 2023/04/12 v2.0b lastpage: 2.09 or 2e? (HMM)
 
@@ -753,97 +769,97 @@ Package: lastpagemodern 2023-04-12 v2.0b Refers to last page's name (HMM; JPG)
 )) (D:\MiKTex\tex/latex/fancyhdr\fancyhdr.sty
 Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
 
-\f@nch@headwidth=\skip75
-\f@nch@O@elh=\skip76
-\f@nch@O@erh=\skip77
-\f@nch@O@olh=\skip78
-\f@nch@O@orh=\skip79
-\f@nch@O@elf=\skip80
-\f@nch@O@erf=\skip81
-\f@nch@O@olf=\skip82
-\f@nch@O@orf=\skip83
+\f@nch@headwidth=\skip76
+\f@nch@O@elh=\skip77
+\f@nch@O@erh=\skip78
+\f@nch@O@olh=\skip79
+\f@nch@O@orh=\skip80
+\f@nch@O@elf=\skip81
+\f@nch@O@erf=\skip82
+\f@nch@O@olf=\skip83
+\f@nch@O@orf=\skip84
 )) (二次函数.aux)
 \openout1 = `二次函数.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
 
 Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
 (fontspec)             this).
 
 \symlegacymaths=\mathgroup6
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 3.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 3.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 3.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 3.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 3.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 3.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 3.
-LaTeX Font Info:    Redeclaring math accent \check on input line 3.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 3.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 3.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 3.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 3.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 3.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 3.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 3.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 3.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 3.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 3.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 3.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 3.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 3.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 3.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 3.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 3.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 4.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 4.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 4.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 4.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 4.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 4.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 4.
+LaTeX Font Info:    Redeclaring math accent \check on input line 4.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 4.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 4.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 4.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 4.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 4.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 4.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 4.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 4.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 4.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 4.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 4.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 4.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 4.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 4.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 4.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 4.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 3.
+(Font)              `operators' in the math version `normal' on input line 4.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/TimesNewRoman(0)/m/n on input line 3
+(Font)                  OT1/cmr/m/n --> TU/TimesNewRoman(0)/m/n on input line 4
 .
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 3.
+(Font)              `operators' in the math version `bold' on input line 4.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  OT1/cmr/bx/n --> TU/TimesNewRoman(0)/m/n on input line 
-3.
+4.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  TU/TimesNewRoman(0)/m/n --> TU/TimesNewRoman(0)/m/n on 
-input line 3.
+input line 4.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
 (Font)                  OT1/cmr/m/it --> TU/TimesNewRoman(0)/m/it on input line
- 3.
+ 4.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
 (Font)                  OT1/cmr/bx/n --> TU/TimesNewRoman(0)/b/n on input line 
-3.
+4.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 3.
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 4.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 3.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 4.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  TU/TimesNewRoman(0)/m/n --> TU/TimesNewRoman(0)/b/n on 
-input line 3.
+input line 4.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/bx/it --> TU/TimesNewRoman(0)/b/it on input lin
-e 3.
+e 4.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 3.
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 4.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 3.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 4.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -895,7 +911,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/m/sl' in size <10> not avai
 lable
 (Font)              Font shape `TU/TimesNewRoman(0)/m/it' tried instead on inpu
-t line 67.
+t line 65.
  [1
 
 ] [2]
@@ -903,12 +919,12 @@ t line 67.
 enddocument/afterlastpage: lastpage setting LastPage.
 (二次函数.aux) ) 
 Here is how much of TeX's memory you used:
- 21979 strings out of 411463
- 508691 string characters out of 5822270
+ 22353 strings out of 411463
+ 515313 string characters out of 5822270
  1860290 words of memory out of 5000000
- 41867 multiletter control sequences out of 15000+600000
+ 42235 multiletter control sequences out of 15000+600000
  516696 words of font info for 79 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 130i,11n,132p,464b,724s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 130i,11n,132p,464b,954s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on 二次函数.pdf (2 pages).
