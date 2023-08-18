@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 23.4) (preloaded format=xelatex 2023.7.26)  26 JUL 2023 11:59
+This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 23.4) (preloaded format=xelatex 2023.7.26)  29 JUL 2023 19:10
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -897,34 +897,22 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 17.
-
-(C:\Program Files\MiKTeX\tex/latex/amsfonts\umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 17.
-
-
-(C:\Program Files\MiKTeX\tex/latex/amsfonts\umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
 LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/m/sl' in size <10> not avai
 lable
 (Font)              Font shape `TU/TimesNewRoman(0)/m/it' tried instead on inpu
-t line 65.
- [1
+t line 70.
+[1
 
-] [2]
-
+] [2] 
 enddocument/afterlastpage: lastpage setting LastPage.
 (base.aux) ) 
 Here is how much of TeX's memory you used:
- 22353 strings out of 411463
- 515313 string characters out of 5822270
- 1860290 words of memory out of 5000000
- 42235 multiletter control sequences out of 15000+600000
- 516696 words of font info for 79 fonts, out of 8000000 for 9000
+ 22144 strings out of 411463
+ 508529 string characters out of 5822270
+ 1859290 words of memory out of 5000000
+ 42043 multiletter control sequences out of 15000+600000
+ 514965 words of font info for 67 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 130i,11n,132p,464b,954s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 130i,11n,132p,464b,529s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on base.pdf (2 pages).

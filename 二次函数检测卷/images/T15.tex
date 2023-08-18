@@ -1,0 +1,14 @@
+\documentclass[11pt]{article}
+\usepackage{mathpicture}
+
+\begin{document}
+\begin{figure}[htb]
+    \centering
+    \subfigure[（第15题）]{
+    \begin{tikzpicture}[scale=0.7,>=Stealth]
+        \draw[->] (-3.2,0) -- (1.2,0) node[below] {$x$};
+        \draw[->] (0,-3.2) -- (0,3) node[right] {$y$};
+        \draw[domain= -2.27:0.27] plot(\x,3*\x*\x+6*\x+0.5);
+    \end{tikzpicture}}
+\end{figure}
+\end{document}

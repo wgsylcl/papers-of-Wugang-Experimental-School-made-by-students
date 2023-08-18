@@ -1,16 +1,16 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 23.4) (preloaded format=xelatex 2023.4.18)  1 JUL 2023 07:59
+This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 23.5) (preloaded format=xelatex 2023.8.12)  16 AUG 2023 21:25
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
 **./端午福利.tex
 (端午福利.tex
-LaTeX2e <2022-11-01> patch level 1
-L3 programming layer <2023-03-30>
+LaTeX2e <2023-06-01> patch level 1
+L3 programming layer <2023-06-30>
 (C:\Program Files\MiKTeX\tex/latex/base\article.cls
-Document Class: article 2022/07/02 v1.4n Standard LaTeX document class
+Document Class: article 2023/05/17 v1.4n Standard LaTeX document class
 (C:\Program Files\MiKTeX\tex/latex/base\size10.clo
-File: size10.clo 2022/07/02 v1.4n Standard LaTeX file (size option)
+File: size10.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
 )
 \c@part=\count181
 \c@section=\count182
@@ -26,10 +26,10 @@ File: size10.clo 2022/07/02 v1.4n Standard LaTeX file (size option)
 )
 (D:\MiKTex\tex/latex/ctex\ctex.sty
 (C:\Program Files\MiKTeX\tex/latex/l3kernel\expl3.sty
-Package: expl3 2023-03-30 L3 programming layer (loader) 
+Package: expl3 2023-06-30 L3 programming layer (loader) 
 
 (C:\Program Files\MiKTeX\tex/latex/l3backend\l3backend-xetex.def
-File: l3backend-xetex.def 2023-03-30 L3 backend support: XeTeX
+File: l3backend-xetex.def 2023-04-19 L3 backend support: XeTeX
 \g__graphics_track_int=\count189
 \l__pdf_internal_box=\box51
 \g__pdf_backend_object_int=\count190
@@ -228,7 +228,7 @@ Package: geometry 2020/01/02 v5.9 Page Geometry
 
 (C:\Program Files\MiKTeX\tex/latex/graphics\keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
-\KV@toks@=\toks16
+\KV@toks@=\toks17
 )
 (C:\Program Files\MiKTeX\tex/generic/iftex\ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
@@ -247,7 +247,7 @@ Package: iftex 2022/02/03 v1.0f TeX engine tests
 \Gm@layoutheight=\dimen180
 \Gm@layouthoffset=\dimen181
 \Gm@layoutvoffset=\dimen182
-\Gm@dimlist=\toks17
+\Gm@dimlist=\toks18
 
 (D:\MiKTex\tex/latex/geometry\geometry.cfg))
 (D:\MiKTex\tex/xelatex/xecjk\xeCJKfntef.sty
@@ -256,7 +256,7 @@ Package: xeCJKfntef 2022/08/05 v3.9.1 xeCJK font effect
 \UL@box=\box55
 \UL@hyphenbox=\box56
 \UL@skip=\skip59
-\UL@hook=\toks18
+\UL@hook=\toks19
 \UL@height=\dimen183
 \UL@pe=\count291
 \UL@pixel=\dimen184
@@ -271,7 +271,7 @@ Package: ulem 2019/11/18
 \l__xeCJK_under_symbol_box=\box60
 \c__xeCJK_filll_skip=\skip61
 ) (C:\Program Files\MiKTeX\tex/latex/amsmath\amsmath.sty
-Package: amsmath 2022/04/08 v2.17n AMS math features
+Package: amsmath 2023/05/13 v2.17o AMS math features
 \@mathmargin=\skip62
 
 For additional information on amsmath, use the `?' option.
@@ -280,7 +280,7 @@ Package: amstext 2021/08/26 v2.01 AMS text
 
 (C:\Program Files\MiKTeX\tex/latex/amsmath\amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks19
+\@emptytoks=\toks20
 \ex@=\dimen187
 ))
 (C:\Program Files\MiKTeX\tex/latex/amsmath\amsbsy.sty
@@ -320,21 +320,21 @@ LaTeX Info: Redefining \Relbar on input line 971.
 \dotsspace@=\muskip17
 \c@parentequation=\count299
 \dspbrk@lvl=\count300
-\tag@help=\toks20
+\tag@help=\toks21
 \row@=\count301
 \column@=\count302
 \maxfields@=\count303
-\andhelp@=\toks21
+\andhelp@=\toks22
 \eqnshift@=\dimen190
 \alignsep@=\dimen191
 \tagshift@=\dimen192
 \tagwidth@=\dimen193
 \totwidth@=\dimen194
 \lineht@=\dimen195
-\@envbody=\toks22
+\@envbody=\toks23
 \multlinegap=\skip63
 \multlinetaggap=\skip64
-\mathdisplay@stack=\toks23
+\mathdisplay@stack=\toks24
 LaTeX Info: Redefining \[ on input line 2953.
 LaTeX Info: Redefining \] on input line 2954.
 )
@@ -375,7 +375,7 @@ Package: paralist 2017/01/22 v2.7 Extended list environments
 \plpartopsep=\skip66
 \plitemsep=\skip67
 \plparsep=\skip68
-\pl@lab=\toks24
+\pl@lab=\toks25
 ) (端午福利.aux)
 \openout1 = `端午福利.aux'.
 
@@ -751,18 +751,23 @@ Underfull \hbox (badness 10000) in paragraph at lines 138--138
  []
 
 [6]
-File: T24_3.png Graphic file (type bmp)
-<T24_3.png>
-File: T24_4.png Graphic file (type bmp)
-<T24_4.png>
- [7] (端午福利.aux) ) 
+File: T24.png Graphic file (type bmp)
+<T24.png>
+File: T24_2.png Graphic file (type bmp)
+<T24_2.png>
+ [7] (端午福利.aux)
+ ***********
+LaTeX2e <2023-06-01> patch level 1
+L3 programming layer <2022/08/05>
+ ***********
+ ) 
 Here is how much of TeX's memory you used:
- 9418 strings out of 411463
- 241711 string characters out of 5822270
- 1864290 words of memory out of 5000000
- 29562 multiletter control sequences out of 15000+600000
- 515886 words of font info for 62 fonts, out of 8000000 for 9000
+ 9352 strings out of 410677
+ 238899 string characters out of 5796950
+ 1930869 words of memory out of 5000000
+ 30284 multiletter control sequences out of 15000+600000
+ 561668 words of font info for 66 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 89i,11n,97p,405b,352s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 93i,11n,97p,405b,352s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on 端午福利.pdf (7 pages).
