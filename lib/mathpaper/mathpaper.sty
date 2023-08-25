@@ -1,0 +1,17 @@
+% !TEX program = xelatex
+\ProvidesPackage{mathpaper}
+\RequirePackage{mathpicture,basicmathpaper}
+\newcommand{\addspace}{\hspace*{\fill} \\ \hspace*{\fill} \\ \hspace*{\fill} \\ \hspace*{\fill} \\ \hspace*{\fill} \\ \hspace*{\fill} \\ \hspace*{\fill} }
+\newcommand{\addemptyline}{\hspace*{\fill} \\ \hspace*{\fill}}
+\newcommand{\complitingline}{\_\_\_\_\_\_\_\_\_}
+\newcommand{\textdot}[1]{{\heiti \CJKunderdot{#1}}}
+\newcommand{\setpreview}{
+    \RequirePackage{draftwatermark, everypage}
+    \SetWatermarkText{预览}
+}
+\newcommand{\showsecret}{\textbf{$\bigstar$保密$\cdot$启用前}}
+\RequirePackage{lastpage}
+\RequirePackage{fancyhdr}
+\pagestyle{fancy}
+\cfoot{数学试题~~~第\thepage 页（共 \pageref{LastPage} 页）}
+\renewcommand{\headrulewidth}{0mm}

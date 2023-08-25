@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 23.5) (preloaded format=xelatex 2023.8.12)  17 AUG 2023 18:30
+This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 23.5) (preloaded format=xelatex 2023.8.12)  22 AUG 2023 22:58
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1072,15 +1072,15 @@ LaTeX Font Info:    ... okay on input line 4.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(24.18483pt, 544.8703pt, 28.45274pt)
-* v-part:(T,H,B)=(45.5244pt, 745.46222pt, 54.06023pt)
+* h-part:(L,W,R)=(17.07164pt, 559.09668pt, 21.33955pt)
+* v-part:(T,H,B)=(34.1433pt, 756.84332pt, 54.06023pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
-* \textwidth=544.8703pt
-* \textheight=745.46222pt
-* \oddsidemargin=-48.08516pt
-* \evensidemargin=-48.08516pt
-* \topmargin=-63.74559pt
+* \textwidth=559.09668pt
+* \textheight=756.84332pt
+* \oddsidemargin=-55.19835pt
+* \evensidemargin=-55.19835pt
+* \topmargin=-75.1267pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=10.0pt
@@ -1102,53 +1102,51 @@ LaTeX Info: Command `\dddot' is already robust on input line 4.
 LaTeX Info: Command `\ddddot' is already robust on input line 4.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Font Info:    Font shape `TU/TeXGyreTermesX(0)/m/n' will be
-(Font)              scaled to size 14.4pt on input line 5.
 LaTeX Font Info:    Font shape `TU/TeXGyreTermesX(0)/b/n' will be
-(Font)              scaled to size 14.4pt on input line 5.
-LaTeX Font Info:    Font shape `TU/TeXGyreTermesX(0)/b/n' will be
-(Font)              scaled to size 10.0pt on input line 8.
+(Font)              scaled to size 10.0pt on input line 5.
 LaTeX Font Info:    Trying to load font information for OT1+minntx on input lin
-e 10.
+e 5.
 (D:\MiKTex\tex/latex/newtx\ot1minntx.fd
 File: ot1minntx.fd 2022/01/20 v1.0 font definition file for OT1/minntx
 )
-LaTeX Font Info:    Trying to load font information for U+msa on input line 10.
-
+LaTeX Font Info:    Trying to load font information for U+msa on input line 5.
 
 (C:\Program Files\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 10.
-
+LaTeX Font Info:    Trying to load font information for U+msb on input line 5.
 
 (C:\Program Files\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Trying to load font information for U+ntxmia on input line 
-10.
+5.
 
 (D:\MiKTex\tex/latex/newtx\untxmia.fd
 File: untxmia.fd 2018/04/14 Fontinst v1.933 font definitions for U/ntxmia.
 )
 LaTeX Font Info:    Trying to load font information for U+ntxsym on input line 
-10.
+5.
  (D:\MiKTex\tex/latex/newtx\untxsym.fd
 File: untxsym.fd 2015/03/20 Fontinst v1.933 font definitions for U/ntxsym.
 )
 LaTeX Font Info:    Trying to load font information for U+ntxsyc on input line 
-10.
+5.
 
 (D:\MiKTex\tex/latex/newtx\untxsyc.fd
 File: untxsyc.fd 2012/04/12 Fontinst v1.933 font definitions for U/ntxsyc.
 )
 LaTeX Font Info:    Font shape `TU/TeXGyreTermesX(0)/m/n' will be
-(Font)              scaled to size 8.0pt on input line 41.
+(Font)              scaled to size 14.4pt on input line 6.
+LaTeX Font Info:    Font shape `TU/TeXGyreTermesX(0)/b/n' will be
+(Font)              scaled to size 14.4pt on input line 6.
+LaTeX Font Info:    Font shape `TU/TeXGyreTermesX(0)/m/n' will be
+(Font)              scaled to size 8.0pt on input line 72.
 LaTeX Font Info:    Font shape `TU/TeXGyreTermesX(0)/m/sl' will be
-(Font)              scaled to size 10.0pt on input line 71.
+(Font)              scaled to size 10.0pt on input line 83.
  [1
 
-] [2] [3]
+] [2] [3] [4]
 
 enddocument/afterlastpage: lastpage setting LastPage.
 (二次函数.aux)
@@ -1158,12 +1156,12 @@ L3 programming layer <2022/08/05>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 25626 strings out of 410677
- 552620 string characters out of 5796950
- 1947869 words of memory out of 5000000
- 46195 multiletter control sequences out of 15000+600000
+ 25647 strings out of 410677
+ 552938 string characters out of 5796950
+ 1950869 words of memory out of 5000000
+ 46216 multiletter control sequences out of 15000+600000
  573809 words of font info for 114 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 132i,11n,135p,578b,958s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 132i,11n,135p,593b,926s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on 二次函数.pdf (3 pages).
+Output written on 二次函数.pdf (4 pages).
