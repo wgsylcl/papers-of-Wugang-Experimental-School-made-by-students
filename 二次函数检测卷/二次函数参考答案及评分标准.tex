@@ -1,0 +1,415 @@
+\documentclass[10pt]{article}
+\usepackage{mathpaper}
+\usepackage{tabularx}
+
+\begin{document}
+\showsecret
+\papertitle{第二十二章~~~二次函数}
+\centerline{\Large 参考答案及评分标准}
+
+\textbf{\selectingintroduction}
+\begin{table}[!htb]
+    \centering
+    \begin{tabularx}{\textwidth}{|*{11}{>{\centering\arraybackslash}X|}} \hline
+        题号 & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 \\ \hline
+        选项 & A & B & C & C & B & B & A & B & C & C \\ \hline
+    \end{tabularx}
+\end{table}
+\par \textbf{\complitingintroduction}
+\begin{table}[!htb]
+    \centering
+    \renewcommand\arraystretch{1.5}
+    \begin{tabularx}{\textwidth}{*{3}{>{\centering\arraybackslash}X}}
+        11.$\ (-1,0)和\left(-\frac{1}{2},0\right)$ & 12.$\ (-3,-2)$ & 13.$\ -10或-2$ \\
+        14.$\ 6$ & 15.$\ $\circnum{1} \circnum{2} \circnum{3} \circnum{4} \circnum{5} & 16.$\ -\frac{9}{4} \leq x < -2$  \\
+    \end{tabularx}
+\end{table}
+
+\setcounter{taskcounter}{16}
+\begin{questions}{\answeringintroduction}
+    \question 设抛物线解析式为$y=ax^2+bx+c$，依题意，有
+    $$\begin{cases}
+        2 = 4a - 2b + c \\
+        2 = 9a + 3b + c \\
+        -4 = 4a + 2b + c
+    \end{cases}$$
+    解之，得
+    $$\begin{cases}
+        a = \frac{3}{2} \\
+        b = -\frac{3}{2} \\
+        c = -7
+    \end{cases} \ \ \ （2分）$$
+    故抛物线解析式为$y=\frac{3}{2}x^2-\frac{3}{2}x-7$（4分），化简得
+    $$y=\frac{3}{2}\left(x-\frac{1}{2}\right)^2-\frac{59}{8}$$
+    即原抛物线顶点为$\left(\frac{1}{2},-\frac{59}{8}\right)$.（8分）
+    \question %18
+    \begin{subquestions}
+        \subquestion 由题意，因为直线两两不平行，且任意三线不共点，故有
+        $$y=\frac{x(x-1)}{2}=\frac{1}{2}x^2-\frac{1}{2}x \ \ \ （2分）$$
+        因为$x$表示点数，故$x > 0$（3分）、$x$是整数（4分）.
+        \subquestion 我们令$y=0$，可以得到
+        $$x^2-x-36=0 \ \ \ （5分）$$
+        则$a=1、b=1、c=-36$，故
+        $$\Delta = b^2-4ac = 1297 \ \ \ （6分）$$
+        由求根公式$x=\frac{-b \pm \sqrt{b^2-4ac}}{2a}$知，$x$不是整数 （7分）\\
+        故交点个数不可能为$18$.（8分）
+    \end{subquestions}
+    \question %19
+    \begin{subquestions}
+        \subquestion $y=x^2-2x$（2分）
+        \subquestion 令$y=0$，有$x^2-2x=0$，解得$x_1=2、x_2=0$，即$A(2,0)$.（3分）\\
+        记$AB$与$x$轴的交点为$T$，由$\angle BAO=45^{\circ}$易得$T(0,2)$，于是设$AT:y=kx+b$，则
+        $\begin{cases}
+            2k+b=0 \\
+            b=2
+        \end{cases}$，
+        解得
+        $\begin{cases}
+            k=-1 \\
+            b=2
+        \end{cases}$
+        即
+        $$AT:y=-x+2 \ \ \ （4分）$$
+        设点$E(e,e^2-2e)$，并过$E$作$EC \bot EF$交$AB$于$C$，于是$C(e,-e+2)$ （5分）\\
+        又因为$EF$平行于$x$轴，故易得$CE=EF$（6分）\\
+        于是
+        $$\begin{aligned}
+            EF = CE &= y_C - y_E \\
+                    &= (-e+2) - (e^2-2e) \\
+                    &= -e^2+e+2 \\
+                    &= -\left(e-\frac{1}{2}\right)^2+\frac{9}{4}
+        \end{aligned}$$
+        即$EF$最大为$\frac{9}{4}$.（8分）
+        \begin{figure}[!htb]
+            \raggedleft
+                \begin{tikzpicture}[>=Stealth,scale=0.65]
+                    \draw[->] (-2,0) -- (4,0) node[below] {$x$};
+                    \draw[->] (0,-2) -- (0,4) node[right] {$y$};
+                    \coordinate[label=below left:{$O$}] (O) at (0,0);
+                    \draw (-1.12,3.5) parabola bend (1,-1) (3.12,3.5);
+                    \coordinate[label=below right:{$A$}] (A) at (2,0);
+                    \coordinate[label=below left:{$B$}] (B) at (-1,3);
+                    \coordinate[label=below left:{$E$}] (E) at (-0.41,1);
+                    \coordinate[label=below left:{$F$}] (F) at (1,1);
+                    \coordinate[label=right:{$T$}] (T) at (0,2);
+                    \coordinate[label=above:{$C$}] (C) at (-0.41,2.41);
+                    \draw (-1.5,3.5) -- (3.5,-1.5);
+                    \draw (-1.5,1) -- (3.5,1);
+                    \draw[densely dashed] (E) -- (C);
+                \end{tikzpicture}
+        \end{figure}
+    \end{subquestions}
+    \question %20
+    \begin{subquestions}
+        \subquestion 令$y=0$，可得$x^2+ax+2a=0$，由题意，$\left|x_1-x_2\right|=3$，即$(x_1-x_2)^2=9$.（1分）\\
+        由韦达定理，可得
+        $$\begin{cases}
+            x_1+x_2=-a \\
+            x_1x_2=2a
+        \end{cases}\ \ \ （2分）$$
+        故有
+        $$\begin{aligned}
+            (x_1-x_2)^2 &= 9 \\
+            (x_1+x_2)^2 - 4x_1x_2 &= 9 \\
+            a^2-8a &= 9 \\
+            (a-9)(a+1) &= 0
+        \end{aligned}$$
+        于是$a-9=0$或$a+1=0$，即$a_1 = 9$（舍去）、$a_2 = -1$. \\
+        故$a=-1$.（4分）
+        \subquestion 当$b < -\frac{9}{2}$时，$y_{min} = b^2+9b+18$.（5分） \\
+        当$-\frac{9}{2} \leq b < \frac{1}{2}$时，$y_{min} = -\frac{9}{4}$.（6分） \\
+        当$b \geq \frac{1}{2}$时，$y_{min} = b^2-b-2$.（7分） \\
+        （注：三种情况全部正确得8分）
+    \end{subquestions}
+    \question %21
+    \begin{subquestions}
+        \subquestion 令$y=0$，得到$-\frac{1}{2}x^2-\frac{3}{2}x+c=0$，即$x^2+3x-2c=0$，则$A=1、B=3、C=-2c$.（2分） \\
+        因为抛物线与$x$轴有两个不同的交点，故该方程有两个不等实根，故
+        $$\begin{aligned}
+            \Delta = B^2 - 4AC &> 0 \\
+            3^2 - 4 \cdot (-2c) &> 0 \\
+            9 + 8c &> 0 \\
+            c &> -\frac{9}{8} \ \ \ （4分）
+        \end{aligned}$$
+        \subquestion 由题，$y=-\frac{1}{2}x^2-\frac{3}{2}x+c=-\frac{1}{2}\left(x+\frac{3}{2}\right)^2+c+\frac{9}{8}$，则$D\left(-\frac{3}{2},c+\frac{9}{8}\right)$，令$x=0$，得$y=c$，故$C(0,c)$.（5分） \\
+        设$CD:y=kx+b$，则
+        $\begin{cases}
+            c = b \\
+            c + \frac{9}{8} = -\frac{3}{2}k + b
+        \end{cases}$，
+        解得
+        $\begin{cases}
+            k = -\frac{3}{4} \\
+            b = c
+        \end{cases}$，故$CD:y=-\frac{3}{4}x+c$，又因为$MN$平行于$CD$且过原点，故$MN:y=-\frac{3}{4}x$.（6分） \\
+        联立抛物线与$MN$的方程
+        $$\begin{cases}
+            y = -\frac{4}{3}x \\
+            y = -\frac{1}{2}x^2-\frac{3}{2}x+c
+        \end{cases}$$
+        则$-\frac{4}{3}x = -\frac{1}{2}x^2-\frac{3}{2}x+c$，化简得到$x^2+\frac{3}{2}x-2c=0$，由题意，$x_M$、$x_N$是这个方程的两根，故由韦达定理得
+        $$\begin{cases}
+            x_M + x_N = -\frac{3}{2} \\
+            x_Mx_N = -2c
+        \end{cases} \ \ \ （7分）$$
+        于是
+        $$\begin{aligned}
+            {MN}^2 &= 16{CD}^2 \\
+            (x_M-x_N)^2+(y_M-y_N)^2 &= 16(x_C-x_D)^2+16(y_C-y_D)^2 \\
+            (x_M-x_N)^2+\left(-\frac{3}{4}x_M+\frac{3}{4}x_N\right)^2 &= 36+\frac{81}{4} \\
+            \frac{25}{16}(x_M-x_N)^2 &= \frac{225}{4} \\
+            (x_M+x_N)^2-4x_Mx_N &= 36 \\
+            \frac{9}{4} + 8c &= 36 \\
+            c &= \frac{135}{32} \ \ \ （8分）
+        \end{aligned}$$
+        \begin{figure}[!htb]
+            \raggedleft
+            \begin{tikzpicture}[>=Stealth,scale=0.4]
+                \draw[->] (0,-3.5) -- (0,6) node[below right] {$y$};
+                \draw[->] (-6,0) -- (3,0) node[below left] {$x$};
+                \draw (-5.59,-3) parabola bend (-1.5,5.34) (2.59,-3);
+                \coordinate[label=below left:{$O$}] (O) at (0,0);
+                \coordinate[label=below right:{$A$}] (A) at (-4.77,0);
+                \coordinate[label=below left:{$B$}] (B) at (1.77,0);
+                \coordinate[label=right:{$C$}] (C) at (0,4.22);
+                \coordinate[label=above:{$D$}] (D) at (-1.5,5.34);
+                \coordinate[label=left:{$M$}] (M) at (-3.75,2.81);
+                \coordinate[label=right:{$N$}] (N) at (2.25,-1.69);
+                \draw (C) -- (D);
+                \draw (M) -- (N);
+            \end{tikzpicture}
+        \end{figure}
+    \end{subquestions}
+    \question %22
+    \begin{subquestions}
+        \subquestion 记$w_甲、w_乙$分别为销售甲、乙两种草莓所获得的总利润，依题意
+            $$w_甲 = -3x-x+\begin{cases}
+                x(-x+14) & (x \leq 8). \\
+                6x & (x > 8).
+            \end{cases}
+            = \begin{cases}
+                -x^2+10x & (x \leq 8). \\
+                2x & (x > 8).
+            \end{cases} \ \ \ （2分）$$
+            $$w_乙 = 9y-3y-(12+3y) = 3y-12 \ \ \ （3分）$$
+            则
+            $$w = w_甲+w_乙 =
+            \begin{cases}
+                -x^2+10x+3y-12 & (x \leq 8). \\
+                2x+3y-12 & (x > 8).
+            \end{cases}$$
+            答：$w = \begin{cases}
+                -x^2+10x+3y-12 & (x \leq 8). \\
+                2x+3y-12 & (x > 8).
+            \end{cases}$（4分）
+            \newpage
+        \subquestion 依题意，$x+y=20$，即$y=-x+20$，于是
+        $$w = \begin{cases}
+            -x^2+7x+48 & (x \leq 8). \\
+            -x+48 & (x > 8).
+        \end{cases} \ \ \ （5分）$$
+        则依题有$w = 30$.\\
+        当$x \leq 8$时，有
+        $$\begin{aligned}
+            -x^2+7x+48 &= 30 \\
+            x^2-7x-18  &= 0 \\
+            (x-9)(x+2) &= 0
+        \end{aligned}$$
+        于是$x-9=0$或$x+2=0$，即$x_1=9$、$x_2=-2$，这两个答案都应舍去.（6分）\\
+        当$x > 8$时，有
+        $$\begin{aligned}
+            -x+48 &= 30 \\
+            x &= 18 \ \ \
+        \end{aligned}$$
+        答：用于销售甲类的草莓有$18$吨.（7分）
+        \subquestion 依题，有$3x+x+3y+12+3y=100$，即$3y=44-2x$. \\
+        于是有
+        $$w = \begin{cases}
+            -x^2+8x+32 & (x \leq 8). \\
+            32 & (x > 8).
+        \end{cases} \ \ \ （8分）$$
+        当$x \leq 8$时，有$w = -x^2+8x+32 = -(x-4)^2 + 48$，因为$4 \leq 8$，所以$w_{min} = w\mid_{x=4} = 48$. \\
+        当$x > 8$时，$w$恒为$32$. \\
+        因为$48 > 32$，故$w_{min} = w\mid_{x=4} = 48$，此时$y=12$. \\
+        答：甲类草莓$4$吨，乙类草莓$12$吨，这样有最大利润为$48$万元.（10分）
+    \end{subquestions}
+    \question %23
+    \begin{subquestions}
+        \subquestion 联立抛物线与$AB$的方程
+        $$\begin{cases}
+            y = -\frac{1}{2}x+3 \\
+            y = \frac{1}{2}x^2
+        \end{cases}$$
+        于是有
+        $$\begin{aligned}
+            \frac{1}{2}x^2 &= -\frac{1}{2}x+3 \\
+            x^2+x-6 &= 0 \\
+            (x+3)(x-2) &= 0
+        \end{aligned}$$
+        故$x+3=0$或$x-2=0$，即$x_1=-3$、$x_2=2$，又因为$A$在$B$的左侧，故$A\left(-3,\frac{9}{2}\right)$、$B(2,2)$.（2分）
+        \subquestion 设$P\left(p,\frac{1}{2}p^2\right)$，过$P$作$PT \bot x$轴、交$AB$于$T$，则$T\left(p,-\frac{1}{2}p+3\right)$，于是$$PT = y_T - y_P = \left(-\frac{1}{2}p+3\right) - \frac{1}{2}p^2 = -\frac{1}{2}p^2 - \frac{1}{2}p + 3$$
+        则
+        $$\begin{aligned}
+            S_{\Delta ABP} &= \frac{1}{2}PT(x_B - x_A) \\
+                           &= -\frac{5}{4}p^2 - \frac{5}{4}p + \frac{15}{2} \ \ \ （4分）
+        \end{aligned}$$
+        又因为$S_{\Delta ABP} = 5$，故
+        $$\begin{aligned}
+            -\frac{5}{4}p^2 - \frac{5}{4}p + \frac{15}{2} &= 5 \\
+            p^2+p-2 &= 0 \\
+            (p+2)(p-1) &= 0
+        \end{aligned}$$
+        于是$p+2=0$或$p-1=0$，即$p_1=-2$、$p_2=1$，故$P_1(-2,2)$、$P_2\left(1,\frac{1}{2}\right)$.（6分）
+        \begin{figure}[!htb]
+            \raggedleft
+            \begin{tikzpicture}[>=Stealth,scale=0.5]
+                \draw[->] (0,-1) -- (0,7) node[below right] {$y$};
+                \draw[->] (-4,0) -- (4,0) node[below left] {$x$};
+                \draw (-3.46410,6) parabola bend (0,0) (3.46410,6);
+                \coordinate[label=below left:{$O$}] (O) at (0,0);
+                \coordinate[label=below left:{$A$}] (A) at (-3,4.5);
+                \coordinate[label=below right:{$B$}] (B) at (2,2);
+                \coordinate[label=above right:{$T$}] (T) at (-1.33,2.33);
+                \coordinate[label=below left:{$P$}] (P) at (-1.33,0.89);
+                \draw (A) -- (B) -- (P) -- cycle;
+                \draw[densely dashed] (-1.33,-1) -- (-1.33,7);
+            \end{tikzpicture}
+        \end{figure}
+        \subquestion
+        $\begin{cases}
+            P_1\left(-1,\frac{1}{2}\right) \\
+            Q_1(0,6)
+        \end{cases}$（7分）
+        $\begin{cases}
+            P_2\left(5,\frac{25}{2}\right) \\
+            Q_2(0,15)
+        \end{cases}$（8分）
+        $\begin{cases}
+            P_3\left(-5,\frac{25}{2}\right) \\
+            Q_3(0,10)
+        \end{cases}$（9分）\\
+        （注：三种情况全部正确得10分）
+    \end{subquestions}
+    \question %24
+    \begin{subquestions}
+        \subquestion 因为抛物线对称轴为$x=1$、且与$x$轴交于$A(4,0)$和$B$，故
+        $$\begin{cases}
+            -\frac{1}{2a} = 1 \\
+            16a + 4 + c = 0
+        \end{cases}$$
+        解得
+        $$\begin{cases}
+            a = -\frac{1}{2} \\
+            c = 4
+        \end{cases}$$
+        故原抛物线解析式为$y=-\frac{1}{2}x^2+x+4$.（2分）
+        \subquestion 如图，过$A$作$x$轴的垂线，交$CD$延长线于$T$.\\
+        因为抛物线对称轴为$x=1$，且$A(4,0)$，所以$B(-2,0)$.又令$x=0$，得$y=4$，故$C(0,4)$.（3分）\\
+        于是$OA=CA=4$，故$\angle OAC = \angle OCA = 45^{\circ}$.
+        又因为$CA$平分$\angle BCD$，故$\angle BCA = \angle TCA$，于是$\Delta BCA $\scalebox{-1}[1]{$\cong$}$ \Delta TCA$，故$TA=BA=6$，即$T(4,6)$.（4分） \\
+        设$CT:y=kx+b$，则
+        $\begin{cases}
+            4 = b \\
+            6 = 4k + b
+        \end{cases}$，解得
+        $\begin{cases}
+            k = \frac{1}{2} \\
+            b = 4
+        \end{cases}$，即$CT:y=\frac{1}{2}x+4$.（5分）\\
+        联立抛物线与$CT$的方程，得到
+        $$\begin{cases}
+            y=\frac{1}{2}x+4 \\
+            y=-\frac{1}{2}x^2+x+4
+        \end{cases}$$
+        即
+        $$\begin{aligned}
+            -\frac{1}{2}x^2+x+4 &= \frac{1}{2}x+4 \\
+            x^2-x &= 0 \\
+            x(x-1) &= 0
+        \end{aligned}$$
+        于是$x=0$或$x-1=0$，即$x_1=0$（舍去）、$x_2=1$，所以$D\left(1,\frac{9}{2}\right)$.（7分）
+        \begin{figure}[!htb]
+            \raggedleft
+            \begin{tikzpicture}[>=Stealth,scale=0.5]
+                \draw[->] (-3,0)--(5,0) node[below] {$x$};
+                \draw[->] (0,-1.75)--(0,6) node[right] {$y$};
+                \coordinate[label=below left:{$O$}] (O) at (0,0);
+                \coordinate[label=below left:{$A$}] (A) at (4,0);
+                \coordinate[label=below right:{$B$}] (B) at (-2,0);
+                \coordinate[label=above left:{$C$}] (C) at (0,4);
+                \coordinate[label=above right:{$D$}] (D) at (1,4.5);
+                \coordinate[label=right:{$T$}] (T) at (4,6);
+                \draw (A)--(C)--(B);
+                \draw (C)--(D);
+                \draw[densely dashed] (A) -- (T);
+                \draw[densely dashed] (D) -- (T);
+                \draw (-2.5,-1.625) parabola bend (1,4.5) (4.5,-1.625);
+            \end{tikzpicture}
+        \end{figure}
+        \newpage
+        \subquestion 依题，设$P(p,5)$，直线$l:y=kx+b$过$P$，则$5=kp+b$，即$b=5-kp$，故$l:y=kx-kp+5$，即
+        $$l:y=k(x-p)+5 \ \ \ （8分）$$
+        联立$l$与抛物线的方程
+        $$\begin{cases}
+            y=k(x-p)+5 \\
+            y=-\frac{1}{2}x^2+x+4
+        \end{cases}$$
+        则
+        $$\begin{aligned}
+            k(x-p)+5 &= -\frac{1}{2}x^2+x+4 \\
+            x^2+(2k-2)x+(2-2kp) &= 0 \ \ \ （9分）
+        \end{aligned}$$
+        当$l$与抛物线有且仅有一个交点时，此方程两根相同，又因为$A=1$、$B=2k-2$、$C=2-2kp$，故
+        $$\begin{aligned}
+            \Delta = B^2 - 4AC &= 0 \\
+            (2k-2)^2-4(2-2kp) &= 0 \\
+            k^2+(2p-2)k-1 &= 0 \ \ \ （10分）
+        \end{aligned}$$
+        由韦达定理，得
+        $$\begin{cases}
+            k_1+k_2 = -(2p-2) \\
+            k_1k_2 = -1
+        \end{cases} \ \ \ (*)$$
+        于是可设$PC:y=k_1(x-p)+5$、$PA:y=k_2(x-p)+5$. \\
+        令$x=1$，得$N(1,k_1(1-p)+5)$、$M(1,k_2(1-p)+5)$\\
+        设$G(1,g)$，则
+        $$GM = k_2(1-p)+(5-g)、
+        GN = k_1(1-p)+(5-g)、
+        {GP}^2 = (x_P-x_G)^2 + (y_P-y_G)^2 = (p-1)^2 + (5-g)^2.（11分）$$
+        又因为${GP}^2 = GM \cdot GN$，故
+        $$\begin{aligned}
+            (p-1)^2+(5-g)^2 &= [k_1(1-p)+(5-g)][k_2(1-p)+(5-g)] \\
+            (p-1)^2+(5-g)^2 &= k_1k_2(1-p)^2+(k_1+k_2)(1-p)(5-g)+(5-g)^2 \\
+            (p-1)^2 &= k_1k_2(1-p)^2+(k_1+k_2)(1-p)(5-g)
+        \end{aligned}$$
+        将$(*)$代入，有
+        $$\begin{aligned}
+            (p-1)^2 &= -(1-p)^2-2(p-1)(1-p)(5-g) \\
+            2(p-1)^2(4-g) &= 0
+        \end{aligned}$$
+        由于当$P$运动时，上式恒成立，故$4-g=0$，即$g=4$.\\
+        综上所述，$G(1,4)$.（12分）
+        \begin{figure}[!htb]
+            \raggedleft
+            \begin{tikzpicture}[>=Stealth,scale=0.5]
+                \draw[->] (-3,0)--(5,0) node[below] {$x$};
+                \draw[->] (0,-1.75)--(0,6) node[right] {$y$};
+                \coordinate[label=below left:{$O$}] (O) at (0,0);
+                \coordinate[label=below left:{$A$}] (A) at (4,0);
+                \coordinate[label=below right:{$B$}] (B) at (-2,0);
+                \coordinate[label=above left:{$C$}] (C) at (0,4);
+                \coordinate[label=above left:{$M$}] (M) at (1,9.79);
+                \coordinate[label=above right:{$P$}] (P) at (2.46,5);
+                \coordinate[label=left:{$N$}] (N) at (1,4.56);
+                \coordinate[label=below right:{$G$}] (G) at (1,4);
+                \draw[densely dashed] (1,-1.7)--(1,10.75);
+                \draw[densely dashed] (G)--(P);
+                \draw (P)--(-1.67,3.75);
+                \draw (M)--(4.23,-0.72);
+                \draw (-3,5)--(5,5);
+                \draw (-2.5,-1.625) parabola bend (1,4.5) (4.5,-1.625);
+            \end{tikzpicture}
+        \end{figure}
+    \end{subquestions}
+\end{questions}
+\end{document}
