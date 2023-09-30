@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 23.5) (preloaded format=xelatex 2023.8.12)  1 SEP 2023 21:40
+This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 23.5) (preloaded format=xelatex 2023.8.12)  16 SEP 2023 17:33
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1162,7 +1162,7 @@ LaTeX Font Info:    Font shape `TU/TeXGyreTermesX(0)/m/n' will be
 LaTeX Font Info:    Font shape `TU/TeXGyreTermesX(0)/b/n' will be
 (Font)              scaled to size 14.4pt on input line 7.
 LaTeX Font Info:    Font shape `TU/TeXGyreTermesX(0)/m/sl' will be
-(Font)              scaled to size 10.0pt on input line 60.
+(Font)              scaled to size 10.0pt on input line 41.
  [1
 
 ] [2] [3] [4]
@@ -1175,10 +1175,10 @@ L3 programming layer <2022/08/05>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 25683 strings out of 410677
- 550601 string characters out of 5796950
- 1932869 words of memory out of 5000000
- 46248 multiletter control sequences out of 15000+600000
+ 25668 strings out of 410677
+ 550292 string characters out of 5796950
+ 1930869 words of memory out of 5000000
+ 46233 multiletter control sequences out of 15000+600000
  573801 words of font info for 113 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  132i,14n,135p,601b,983s stack positions out of 10000i,1000n,20000p,200000b,200000s
