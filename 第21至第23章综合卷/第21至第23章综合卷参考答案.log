@@ -1,10 +1,10 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 23.10.12) (preloaded format=xelatex 2023.10.15)  17 OCT 2023 21:07
+This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 23.10.12) (preloaded format=xelatex 2023.10.15)  23 OCT 2023 20:28
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**./第21至第23章综合卷答题卡.tex
-(第21至第23章综合卷答题卡.tex
+**./第21至第23章综合卷参考答案.tex
+(第21至第23章综合卷参考答案.tex
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-10-10>
 (C:\Program Files\MiKTeX\tex/latex/base\article.cls
@@ -1041,8 +1041,8 @@ language=dflt;-ss05;+tnum;+lnum;+smcp;+pcap;mapping=tex-text;"
 
 LaTeX Font Info:    Font shape `TU/TeXGyreTermesX(0)/m/n' will be
 (Font)              scaled to size 10.0pt on input line 5.
- (第21至第23章综合卷答题卡.aux)
-\openout1 = `第21至第23章综合卷答题卡.aux'.
+ (第21至第23章综合卷参考答案.aux)
+\openout1 = `第21至第23章综合卷参考答案.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 5.
 LaTeX Font Info:    Trying to load font information for OML+ntxmi on input line
@@ -1163,29 +1163,33 @@ LaTeX Font Info:    Font shape `TU/TeXGyreTermesX(0)/m/n' will be
 (Font)              scaled to size 14.4pt on input line 7.
 LaTeX Font Info:    Font shape `TU/TeXGyreTermesX(0)/b/n' will be
 (Font)              scaled to size 14.4pt on input line 7.
+LaTeX Font Info:    Font shape `TU/TeXGyreTermesX(0)/m/n' will be
+(Font)              scaled to size 7.3pt on input line 32.
+LaTeX Font Info:    Font shape `TU/TeXGyreTermesX(0)/m/n' will be
+(Font)              scaled to size 5.5pt on input line 32.
 LaTeX Font Info:    Font shape `TU/TeXGyreTermesX(0)/m/sl' will be
-(Font)              scaled to size 10.0pt on input line 58.
+(Font)              scaled to size 10.0pt on input line 69.
  [1
 
 ]
 LaTeX Font Info:    Font shape `TU/TeXGyreTermesX(0)/m/n' will be
-(Font)              scaled to size 8.0pt on input line 74.
- [2] [3] [4]
+(Font)              scaled to size 8.0pt on input line 100.
+ [2] [3] [4] [5]
 
 enddocument/afterlastpage: lastpage setting LastPage.
-(第21至第23章综合卷答题卡.aux)
+(第21至第23章综合卷参考答案.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2022/08/05>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 25769 strings out of 409954
- 553374 string characters out of 5785456
- 1935674 words of memory out of 5000000
- 47044 multiletter control sequences out of 15000+600000
- 598845 words of font info for 173 fonts, out of 8000000 for 9000
+ 25987 strings out of 409954
+ 563383 string characters out of 5785456
+ 1944674 words of memory out of 5000000
+ 47256 multiletter control sequences out of 15000+600000
+ 616541 words of font info for 221 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 132i,14n,135p,608b,977s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 132i,13n,135p,609b,1023s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on 第21至第23章综合卷答题卡.pdf (4 pages).
+Output written on 第21至第23章综合卷参考答案.pdf (5 pages).

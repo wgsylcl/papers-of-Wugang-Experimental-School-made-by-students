@@ -4,7 +4,7 @@
 
 \begin{document}
 \showsecret
-\papertitle{第21$\boldsymbol{\sim}$23章综合卷}
+\papertitle{第21$\boldsymbol{\sim}$23章综合能力提升卷}
 \centerline{\Large 答题卡}
 \paperinformation{时间：2小时~~~~满分：120分}
 \informationline
@@ -63,16 +63,26 @@
     \end{subquestions}
     \question \qquad \par
     \begin{figure}[!htb]
-        \raggedleft
-        \begin{tikzpicture}[scale=0.6]
-            \draw[step=1,gray,dashed] (-3,-3) grid (4,4);
-            \coordinate[label=below right:{$C$}] (C) at (0,0);
-            \coordinate[label=above left:{$A$}] (A) at (4,3);
-            \coordinate[label=above right:{$B$}] (B) at (0,3);
-            \coordinate[label=above left:{$T$}] (T) at (1.64848,1.23636);
-            \filldraw (T) circle (.1);
-            \draw (A) -- (B) -- (C) -- cycle;
-        \end{tikzpicture}
+        \centering
+        \subfigure[（1）]{
+            \begin{tikzpicture}[scale=0.6]
+                \draw[step=1,dashed] (-3,-3) grid (5,5);
+                \coordinate[label=below right:{$C$}] (C) at (0,0);
+                \coordinate[label=above left:{$A$}] (A) at (4,3);
+                \coordinate[label=above right:{$B$}] (B) at (0,3);
+                \draw (A) -- (B) -- (C) -- cycle;
+            \end{tikzpicture}}\qquad\qquad
+        \subfigure[（2）]{
+            \begin{tikzpicture}[scale=0.6]
+                \draw[step=1,dashed] (-3,-3) grid (5,5);
+                \coordinate[label=below right:{$C$}] (C) at (0,0);
+                \coordinate[label=above left:{$A$}] (A) at (4,3);
+                \coordinate[label=above right:{$B$}] (B) at (0,3);
+                \coordinate[label=above left:{$T$}] (T) at (1.24848,0.93636);
+                \filldraw (T) circle (0.064);
+                \draw (A) -- (B) -- (C) -- cycle;
+            \end{tikzpicture}
+        }
     \end{figure}
     \question %22
     \begin{subquestions}
@@ -87,7 +97,7 @@
                 \draw[->] (0,-1) -- (0,5.5) node[right] {$y$};
                 \coordinate[label=below right:{$O$}] (O) at (0,0);
                 \draw (0,0) -- (3.5,3.5) -- (4.2,3.5);
-                \draw (-7,5) parabola bend (-7,5) (0.5,0.5);
+                \draw (-7,5) parabola bend (-7,5) (1.5,1.5);
                 \filldraw (-7,5) circle (.1);
                 \node[below] at (-7,5) {无人机};
                 \draw[line width =2pt] (1,1) -- (2,2);

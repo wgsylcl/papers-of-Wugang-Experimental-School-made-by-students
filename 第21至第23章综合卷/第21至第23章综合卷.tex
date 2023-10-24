@@ -3,7 +3,7 @@
 \usepackage{tabularx}
 \begin{document}
 \showsecret
-\papertitle{第21$\boldsymbol{\sim}$23章综合卷}
+\papertitle{第21$\boldsymbol{\sim}$23章综合能力提升卷}
 \paperinformation{时间：2小时~~~~满分：120分}
 \informationline
 \begin{questions}{\selectingintroduction}
@@ -112,8 +112,8 @@
 \begin{questions}{\answeringintroduction}
     \question 分别求下列抛物线的开口方向、顶点坐标以及与$x$轴的交点坐标:
     \begin{subquestions}
+        \subquestion $y=x^2-8x+12$
         \subquestion $y=-2x^2+6x+8$
-        \subquestion $y=x^2-8x-12$
     \end{subquestions}
     \addspace
     \question 如图，$\Delta ABC$和$\Delta AEF$均为等边三角形，连$BE$、$CF$交于点$Q$.
@@ -150,25 +150,36 @@
         \subquestion 若${x_1}^2+{x_2}^2-4{x_1}{x_2}=0$，求实数$m$的值.
     \end{subquestions}
     \addspace
-    \question 如图，在$7 \times 7$的网格中，点$A$、$B$、$C$均是格点，且以这三点围成的三角形是以$B$为直角顶点的直角三角形.仅用无刻度直尺完成下列作图任务（保留作图痕迹）：
+    \question 如图，在$8 \times 8$的网格中，点$A$、$B$、$C$均是格点，且以这三点围成的三角形是以$B$为直角顶点的直角三角形.仅用无刻度直尺完成下列作图任务（保留作图痕迹）：
     \begin{subquestions}
-        \subquestion 作$\angle BCA$的角平分线.
-        \subquestion 记$\angle BAC=\alpha$，若点$T$是线段$AC$上的任意一点，将点$T$绕点$A$顺时针旋转$\alpha$至点$T'$，求作点$T'$.
+        \subquestion 在图1中，作$\angle BCA$的角平分线.
+        \subquestion 在图2中，点$T$是线段$AC$上的任意一点，在线段$AB$上作点$E$，使得$EA=TA$.
+        \subquestion 在（2）的条件下，记$\angle BAC=\alpha$，将点$T$绕点$A$逆时针旋转$\alpha$至点$F$，求作点$F$.
     \end{subquestions}
     \begin{figure}[!htb]
-        \raggedleft
-        \subfigure[（第21题）]{
+        \centering
+        \subfigure[（1）]{
             \begin{tikzpicture}[scale=0.6]
-                \draw[step=1,gray,dashed] (-3,-3) grid (4,4);
+                \draw[step=1,dashed] (-3,-3) grid (5,5);
                 \coordinate[label=below right:{$C$}] (C) at (0,0);
                 \coordinate[label=above left:{$A$}] (A) at (4,3);
                 \coordinate[label=above right:{$B$}] (B) at (0,3);
-                \coordinate[label=above left:{$T$}] (T) at (1.64848,1.23636);
-                \filldraw (T) circle (.1);
                 \draw (A) -- (B) -- (C) -- cycle;
-            \end{tikzpicture}}
+            \end{tikzpicture}}\qquad\qquad
+        \subfigure[（2）]{
+            \begin{tikzpicture}[scale=0.6]
+                \draw[step=1,dashed] (-3,-3) grid (5,5);
+                \coordinate[label=below right:{$C$}] (C) at (0,0);
+                \coordinate[label=above left:{$A$}] (A) at (4,3);
+                \coordinate[label=above right:{$B$}] (B) at (0,3);
+                \coordinate[label=above left:{$T$}] (T) at (1.24848,0.93636);
+                \filldraw (T) circle (0.064);
+                \draw (A) -- (B) -- (C) -- cycle;
+            \end{tikzpicture}
+        }
+        \caption*{（第21题）}
     \end{figure}
-    \question 在一次军事演习中，我军一架无人机正在以$100$m/s的飞行速度对一片山区执行$500$m高度低空轰炸任务，已知该飞机以水平轰炸的方式投下航空炸弹，且炸弹的下落距离$h$、水平飞行距离$x$和飞行时间$t$之间的关系如下表所示（不计空气阻力）：
+    \question 在一次军事演习中，我军一架无人机正在以$100$m/s的飞行速度与$500$m的飞行高度对一片山区执行低空轰炸任务，已知该飞机以水平轰炸的方式投下航空炸弹，且炸弹的下落距离$h$、水平飞行距离$x$和飞行时间$t$之间的关系如下表所示（不计空气阻力）：
     \begin{figure}[!htb]
         \centering
         \subfigure{
@@ -184,19 +195,19 @@
             \draw[->] (0,-1) -- (0,5.5) node[right] {$y$};
             \coordinate[label=below right:{$O$}] (O) at (0,0);
             \draw (0,0) -- (3.5,3.5) -- (4.2,3.5);
-            \draw (-7,5) parabola bend (-7,5) (0.5,0.5);
+            \draw (-7,5) parabola bend (-7,5) (1.5,1.5);
             \filldraw (-7,5) circle (.1);
             \node[below] at (-7,5) {无人机};
             \draw[line width =2pt] (1,1) -- (2,2);
         \end{tikzpicture}}
     \end{figure}
-    \par 其中，$x$与$t$和$h$与$t$之间的函数关系式都是我们学过的函数.
+    \par 其中，$x$与$t$和$h$与$t$之间存在函数关系，且这些函数都是我们学过的函数.
     \begin{subquestions}
-        \subquestion 直接写出$x$与$t$和$h$与$t$之间的函数关系式.
+        \subquestion 直接写出$x$与$t$和$h$与$t$之间的函数关系式（不必写出$t$的取值范围）.
         \subquestion 已知无人机攻击的目标在一座坡度为$45^{\circ}$的山处，现以山脚为原点，建立如图所示的坐标系.
         \begin{subsubquestions}
             \subsubquestion 在一次投弹任务中，已知航弹释放后正好在无人机从山脚正上方掠过时落地爆炸，求投弹点与山脚间的水平距离.
-            \subsubquestion 已知在山坡上距离山脚$100$m至$200$m的地方（包括这两点，图中已经加粗）有敌军的迫击炮阵地，若无人机需要攻击那里，求无人机与山脚之间水平距离的取值范围.
+            \subsubquestion 已知在山坡上水平距离山脚$100$m至$200$m的地方（包括这两点，图中已经加粗）有敌军的迫击炮阵地，若无人机需要攻击那里，求无人机与山脚之间水平距离的取值范围.
         \end{subsubquestions}
     \end{subquestions}
     \newpage
@@ -250,7 +261,7 @@
     \question 在平面直角坐标系$xOy$中，抛物线$y=x^2-2x-3$的顶点是$D$，交$x$轴于点$A$、点$B$（点$A$在点$B$左侧），交$y$轴于点$C$.
     \begin{subquestions}
         \subquestion 直接写出点$A$、点$B$、点$C$、点$D$的坐标.
-        \subquestion 如图1，连$BC$，设直线$l_1:x=t$交线段$BC$于点$E$，交抛物线于点$F$，直线$l_2:x=t+1$交线段$BC$于点$M$，交抛物线于点$N$，试讨论比较线段$EF$与线段$MN$的大小关系.
+        \subquestion 如图1，连$BC$，设直线$l_1:x=t$交线段$BC$（含两端）于点$E$，交抛物线于点$F$，直线$l_2:x=t+1$交线段$BC$（含两端）于点$M$，交抛物线于点$N$，试根据$t$的取值讨论线段$EF$与线段$MN$的大小关系.
         \subquestion 如图2，过点$(2,-2)$的直线交抛物线于点$P$、$Q$，作直线$PB$与直线$DQ$交于点$T$，连$AT$，求线段$AT$长度的最小值.
     \end{subquestions}
     \begin{figure}[!htb]
