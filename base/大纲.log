@@ -1,10 +1,10 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 23.10.12) (preloaded format=xelatex 2023.10.15)  3 NOV 2023 21:56
+This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 23.10.12) (preloaded format=xelatex 2023.10.15)  4 NOV 2023 19:51
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**./base.tex
-(base.tex
+**./大纲.tex
+(大纲.tex
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-10-10>
 (C:\Program Files\MiKTeX\tex/latex/base\article.cls
@@ -24,9 +24,6 @@ File: size10.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
 \belowcaptionskip=\skip49
 \bibindent=\dimen140
 )
-(D:\MiKTex\tex/latex/mathpaper\mathpaper.sty
-Package: mathpaper 
-
 (D:\MiKTex\tex/latex/mathpicture\mathpicture.sty
 Package: mathpicture 
 
@@ -934,33 +931,50 @@ LaTeX Info: Redefining \not on input line 2969.
 \c@taskcounter=\count343
 \c@subtaskcounter=\count344
 \c@subsubtaskcounter=\count345
-) (D:\MiKTex\tex/latex/lastpage\lastpage.sty
-Package: lastpage 2023/10/06 v2.0d lastpage: 2.09 or 2e? (HMM)
+) (D:\MiKTex\tex/latex/booktabs\booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen334
+\lightrulewidth=\dimen335
+\cmidrulewidth=\dimen336
+\belowrulesep=\dimen337
+\belowbottomsep=\dimen338
+\aboverulesep=\dimen339
+\abovetopsep=\dimen340
+\cmidrulesep=\dimen341
+\cmidrulekern=\dimen342
+\defaultaddspace=\dimen343
+\@cmidla=\count346
+\@cmidlb=\count347
+\@aboverulesep=\dimen344
+\@belowrulesep=\dimen345
+\@thisruleclass=\count348
+\@lastruleclass=\count349
+\@thisrulewidth=\dimen346
+)
+(C:\Program Files\MiKTeX\tex/latex/tools\tabularx.sty
+Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
 
-(D:\MiKTex\tex/latex/lastpage\lastpage2e.sty
-Package: lastpage2e 2023/10/06 v2.0d Decide which 2e lastpage version to use (H
-MM)
-
-(D:\MiKTex\tex/latex/lastpage\lastpagemodern.sty
-Package: lastpagemodern 2023-10-06 v2.0d Refers to last page's name (HMM; JPG)
-\c@lastpagecount=\count346
-) 
-)) (D:\MiKTex\tex/latex/fancyhdr\fancyhdr.sty
-Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
-
-\f@nch@headwidth=\skip76
-\f@nch@O@elh=\skip77
-\f@nch@O@erh=\skip78
-\f@nch@O@olh=\skip79
-\f@nch@O@orh=\skip80
-\f@nch@O@elf=\skip81
-\f@nch@O@erf=\skip82
-\f@nch@O@olf=\skip83
-\f@nch@O@orf=\skip84
-))
+(C:\Program Files\MiKTeX\tex/latex/tools\array.sty
+Package: array 2022/09/04 v2.5g Tabular extension package (FMi)
+\col@sep=\dimen347
+\ar@mcellbox=\box75
+\extrarowheight=\dimen348
+\NC@list=\toks44
+\extratabsurround=\skip76
+\backup@length=\skip77
+\ar@cellbox=\box76
+)
+\TX@col@width=\dimen349
+\TX@old@table=\dimen350
+\TX@old@col=\dimen351
+\TX@target=\dimen352
+\TX@delta=\dimen353
+\TX@cols=\count350
+\TX@ftn=\toks45
+)
 \symCJKmath=\mathgroup255
 LaTeX Font Info:    Overwriting symbol font `CJKmath' in version `bold'
-(Font)                  TU/SimSun(0)/m/n --> TU/SimSun(0)/b/n on input line 4.
+(Font)                  TU/SimSun(0)/m/n --> TU/SimSun(0)/b/n on input line 5.
 
 (D:\MiKTex\tex/latex/newtx\TeXGyreTermesX.fontspec)
 
@@ -1019,52 +1033,52 @@ language=dflt;-ss05;+tnum;+lnum;+smcp;+pcap;mapping=tex-text;"
 ;language=dflt;-ss05;+tnum;+lnum;+smcp;+pcap;mapping=tex-text;"
 
 LaTeX Font Info:    Font shape `TU/TeXGyreTermesX(0)/m/n' will be
-(Font)              scaled to size 10.0pt on input line 4.
- (base.aux)
-\openout1 = `base.aux'.
+(Font)              scaled to size 10.0pt on input line 5.
+ (大纲.aux)
+\openout1 = `大纲.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 4.
+LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 5.
 LaTeX Font Info:    Trying to load font information for OML+ntxmi on input line
- 4.
+ 5.
 
 (D:\MiKTex\tex/latex/newtx\omlntxmi.fd
 File: omlntxmi.fd 2015/08/25 Fontinst v1.933 font definitions for OML/ntxmi.
 )
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 5.
 LaTeX Font Info:    Trying to load font information for U+ntxexa on input line 
-4.
+5.
  (D:\MiKTex\tex/latex/newtx\untxexa.fd
 File: untxexa.fd 2012/04/16 Fontinst v1.933 font definitions for U/ntxexa.
 )
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for LMS/ntxsy/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for LMS/ntxsy/m/n on input line 5.
 LaTeX Font Info:    Trying to load font information for LMS+ntxsy on input line
- 4.
+ 5.
 
 (D:\MiKTex\tex/latex/newtx\lmsntxsy.fd
 File: lmsntxsy.fd 2016/07/02 Fontinst v1.933 font definitions for LMS/ntxsy.
 )
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 5.
 LaTeX Font Info:    Trying to load font information for LMX+ntxexx on input lin
-e 4.
+e 5.
  (D:\MiKTex\tex/latex/newtx\lmxntxexx.fd
 File: lmxntxexx.fd 2016/07/03 Fontinst v1.933 font definitions for LMX/ntxexx.
 )
-LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    ... okay on input line 5.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -1100,66 +1114,40 @@ LaTeX Font Info:    ... okay on input line 4.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Info: Command `\dddot' is already robust on input line 4.
-LaTeX Info: Command `\ddddot' is already robust on input line 4.
+LaTeX Info: Command `\dddot' is already robust on input line 5.
+LaTeX Info: Command `\ddddot' is already robust on input line 5.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 LaTeX Font Info:    Font shape `TU/TeXGyreTermesX(0)/b/n' will be
-(Font)              scaled to size 10.0pt on input line 5.
-LaTeX Font Info:    Trying to load font information for OT1+minntx on input lin
-e 5.
-(D:\MiKTex\tex/latex/newtx\ot1minntx.fd
-File: ot1minntx.fd 2022/01/20 v1.0 font definition file for OT1/minntx
-)
-LaTeX Font Info:    Trying to load font information for U+msa on input line 5.
-
-(C:\Program Files\MiKTeX\tex/latex/amsfonts\umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 5.
-
-(C:\Program Files\MiKTeX\tex/latex/amsfonts\umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-LaTeX Font Info:    Trying to load font information for U+ntxmia on input line 
-5.
-
-(D:\MiKTex\tex/latex/newtx\untxmia.fd
-File: untxmia.fd 2018/04/14 Fontinst v1.933 font definitions for U/ntxmia.
-)
-LaTeX Font Info:    Trying to load font information for U+ntxsym on input line 
-5.
- (D:\MiKTex\tex/latex/newtx\untxsym.fd
-File: untxsym.fd 2023/08/16 Fontinst v1.933 font definitions for U/ntxsym.
-)
-LaTeX Font Info:    Trying to load font information for U+ntxsyc on input line 
-5.
-
-(D:\MiKTex\tex/latex/newtx\untxsyc.fd
-File: untxsyc.fd 2012/04/12 Fontinst v1.933 font definitions for U/ntxsyc.
-)
+(Font)              scaled to size 10.0pt on input line 6.
 LaTeX Font Info:    Font shape `TU/TeXGyreTermesX(0)/b/n' will be
 (Font)              scaled to size 14.4pt on input line 6.
-LaTeX Font Info:    Font shape `TU/TeXGyreTermesX(0)/m/sl' will be
-(Font)              scaled to size 10.0pt on input line 73.
- [1
+LaTeX Font Info:    Font shape `TU/TeXGyreTermesX(0)/m/n' will be
+(Font)              scaled to size 14.4pt on input line 7.
+(D:\MiKTex\tex/latex/newtx\ot1minntx.fd)
+(C:\Program Files\MiKTeX\tex/latex/amsfonts\umsa.fd)
+(C:\Program Files\MiKTeX\tex/latex/amsfonts\umsb.fd)
+(D:\MiKTex\tex/latex/newtx\untxmia.fd) (D:\MiKTex\tex/latex/newtx\untxsym.fd)
+(D:\MiKTex\tex/latex/newtx\untxsyc.fd)
+Underfull \hbox (badness 10000) in alignment at lines 36--36
+[][][][] 
+ []
 
-]
+[1
 
-enddocument/afterlastpage: lastpage setting LastPage.
-(base.aux)
+] (大纲.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2022/08/05>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 25380 strings out of 409954
- 545755 string characters out of 5785456
- 1931674 words of memory out of 5000000
- 46678 multiletter control sequences out of 15000+600000
+ 25146 strings out of 409954
+ 537577 string characters out of 5785456
+ 1932674 words of memory out of 5000000
+ 46451 multiletter control sequences out of 15000+600000
  573731 words of font info for 111 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 132i,11n,135p,577b,665s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 117i,10n,121p,450b,315s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on base.pdf (1 page).
+Output written on 大纲.pdf (1 page).

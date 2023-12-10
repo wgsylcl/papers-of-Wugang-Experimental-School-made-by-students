@@ -1,14 +1,25 @@
 % !TEX program = xelatex
 \ProvidesPackage{basicmathpaper}
-\RequirePackage{enumitem}
+\RequirePackage{enumitem,tabularx}
 \RequirePackage{ulem}
-\usepackage{newtxtext,newtxmath}
+\RequirePackage{newtxtext,newtxmath}
 
 \newcommand{\selectingintroduction}{一、选择题：本大题共10小题，每小题3分，共30分，在每小题给出的四个选项中，只有一项是符合题目要求的.}
 \newcommand{\complitingintroduction}{二、填空题：本大题共6小题，每小题3分，共18分.}
 \newcommand{\answeringintroduction}{三、解答题：本大题共8小题，共72分，解答应写出必要的文字说明、证明过程或演算步骤.}
-\newcommand{\papertitle}[1]{\section*{\centering #1}}
-\newcommand{\paperinformation}[1]{\centerline{#1}}
+\newcommand{\papertitle}[1]{\centerline{\textbf{\Large #1}} \par}
+\newcommand{\paperinformation}{
+    \begin{table}[!htbp]
+        \centering
+        \begin{tikzpicture}[scale=1]
+            \draw[line width =0.4pt] (0,0) -- (18,0);
+            \draw[line width =0.4pt] (0,0.08) -- (18,0.08);
+            \node[above] at (3.4,0.12) {武钢实验学校914班数学兴趣小组命制};
+            \node[above] at (17,0.12) {\number\year-\number\month};
+            \node[below] at (9,0) {本试卷满分120分，考试用时120分钟};
+        \end{tikzpicture}
+    \end{table}
+}
 \newcommand{\informationline}{\centerline{班级：\complitingline ~~~~~~ 姓名：\complitingline ~~~~~~ 学号：\complitingline ~~~~~~ 得分：\complitingline}}
 
 \newcommand{\circnum}[1]{\ding{\numexpr171+#1\relax}}

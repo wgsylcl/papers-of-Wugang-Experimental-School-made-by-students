@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 23.10.12) (preloaded format=xelatex 2023.10.15)  22 OCT 2023 08:55
+This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 23.10.12) (preloaded format=xelatex 2023.10.15)  5 NOV 2023 16:44
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1159,14 +1159,12 @@ LaTeX Font Info:    Trying to load font information for U+ntxsyc on input line
 (D:\MiKTex\tex/latex/newtx\untxsyc.fd
 File: untxsyc.fd 2012/04/12 Fontinst v1.933 font definitions for U/ntxsyc.
 )
-LaTeX Font Info:    Font shape `TU/TeXGyreTermesX(0)/m/n' will be
-(Font)              scaled to size 14.4pt on input line 6.
 LaTeX Font Info:    Font shape `TU/TeXGyreTermesX(0)/b/n' will be
 (Font)              scaled to size 14.4pt on input line 6.
 LaTeX Font Info:    Font shape `TU/TeXGyreTermesX(0)/m/n' will be
-(Font)              scaled to size 8.0pt on input line 45.
+(Font)              scaled to size 8.0pt on input line 44.
 LaTeX Font Info:    Font shape `TU/TeXGyreTermesX(0)/m/sl' will be
-(Font)              scaled to size 10.0pt on input line 101.
+(Font)              scaled to size 10.0pt on input line 84.
  [1
 
 ] [2] [3] [4]
@@ -1179,12 +1177,12 @@ L3 programming layer <2022/08/05>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 25878 strings out of 409954
- 557974 string characters out of 5785456
- 1959674 words of memory out of 5000000
- 47153 multiletter control sequences out of 15000+600000
- 598845 words of font info for 173 fonts, out of 8000000 for 9000
+ 25879 strings out of 409954
+ 557923 string characters out of 5785456
+ 1956674 words of memory out of 5000000
+ 47155 multiletter control sequences out of 15000+600000
+ 598837 words of font info for 172 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 132i,14n,135p,605b,970s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 132i,14n,135p,605b,965s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on 第21至第23章综合卷.pdf (4 pages).
