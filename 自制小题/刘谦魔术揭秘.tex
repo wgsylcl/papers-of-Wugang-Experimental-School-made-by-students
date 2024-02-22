@@ -1,0 +1,58 @@
+\documentclass[10pt]{article}
+\usepackage{mathpaper}
+
+\title{魔术揭秘}
+\author{lcl}
+\date{2024大年初一}
+
+\begin{document}
+\maketitle
+\section*{内容}
+\begin{enumerate}
+    \item 拿出$4$张扑克牌，各撕成两半组成两组（每张扑克牌撕出的两张都在不同的组里），并把两组牌叠在一起.
+    \item 按照自己名字字数$n$，将手中的牌洗$n$次，每次将最上面一张牌放到\textbf{最下面}.
+    \item 将前$3$张牌插入牌组\textbf{中间}，完成后将新的牌组中，最上面的扑克牌拿出，并收好.
+    \item 根据自己的地域，将牌组前$1$、$2$或$3$张牌插入牌组\textbf{中间}.
+    \item 根据自己的性别，男生弃牌组最上方一张牌，女生弃两张.
+    \item ``见证奇迹的时刻!''，将手中的牌洗$7$次，每次将最上面一张牌放到\textbf{最下面}.
+    \item ``好运留下来，烦恼丢出去!''，将牌组中最上面一张牌放到最下面，然后丢新牌组中最上面的牌，往复循环，直至手中只剩下一张牌.
+    \item 手上剩下的半张牌正好和操作3中拿走的半张对应.
+\end{enumerate}
+
+\section*{原理}
+第一步操作中，只是撕开了扑克牌，没有改变牌组顺序，我们记撕开后的两组扑克牌按顺序为$ABCD$和$abcd$，大小写对应，那么叠起来后为$ABCDabcd$. \par
+第二步操作中，轮换的将最上面的牌放到最下面并不会改变牌的结构，具体的，你可以将牌组首尾连接，如下图：\par
+\begin{figure}[!htb]
+    \centering
+    \begin{tikzpicture}[>=Stealth,scale=1.5]
+        \tikzset{
+            box/.style ={
+            circle,
+            % minimum width =50pt, %最小宽度
+            % minimum height =20pt, %最小高度
+            % inner sep=5pt, %文字和边框的距离
+            draw=blue %边框颜色
+        }}
+        \node[box] (A) at (-1,1) {$A$};
+        \node[box] (B) at (0,1) {$B$};
+        \node[box] (C) at (1,1) {$C$};
+        \node[box] (D) at (1,0) {$D$};
+        \node[box] (a) at (1,-1) {$a$};
+        \node[box] (b) at (0,-1) {$b$};
+        \node[box] (c) at (-1,-1) {$c$};
+        \node[box] (d) at (-1,0) {$d$};
+        \draw (A) -- (B) -- (C) -- (D) -- (a) -- (b) -- (c) -- (d) -- (A);
+    \end{tikzpicture}
+    \caption*{（扑克牌按顺序组成的环）}
+\end{figure}
+这样，每次洗牌实际上只是在更改分开这个环的位置，操作结束后，牌组依然保持$ABCDabcd$的结构. \par
+第三次操作中，$ABC$被插到中间，$D$被拿走，\textbf{由于$ABC$插到了中间，因此这并不影响最底下一张牌是$d$，这就是关键}. \par
+同样的，第四、五次操作后，都不会影响最后一张牌是$d$，此时男、女卡牌的结构分别为$12345d$和$1234d$.\par
+第七次操作后，男、女卡牌的结构分别为$2345d1$和$34d12$.\par
+第八次操作，本质上是约瑟夫问题，男、女生的操作如下:\par
+\begin{itemize}
+    \item 男生：$2345d1 \longrightarrow 345d12 \longrightarrow 45d12 \longrightarrow 5d124 \longrightarrow d124 \longrightarrow 124d \longrightarrow 24d \longrightarrow 4d2 \longrightarrow d2 \longrightarrow 2d \longrightarrow d$.
+    \item 女生：$34d12 \longrightarrow 4d123 \longrightarrow d123 \longrightarrow 123d \longrightarrow 23d \longrightarrow 3d2 \longrightarrow d2 \longrightarrow 2d \longrightarrow d$.
+\end{itemize} \par
+因此，无论名字多长、无论南方北方、无论男生女生，最后都剩下$d$，和第三次操作留下的$D$对应.
+\end{document}

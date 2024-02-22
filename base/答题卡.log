@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 23.10.12) (preloaded format=xelatex 2023.10.15)  3 NOV 2023 21:57
+This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 23.10.12) (preloaded format=xelatex 2023.10.15)  29 DEC 2023 21:46
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -354,6 +354,40 @@ LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 )
 (C:\Program Files\MiKTeX\tex/latex/amsfonts\amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
+)
+(D:\MiKTex\tex/latex/yhmath\yhmath.sty
+Package: yhmath 2020/03/17 v1.6
+\symyhlargesymbols=\mathgroup6
+LaTeX Font Info:    Redeclaring math accent \widetilde on input line 29.
+LaTeX Font Info:    Redeclaring math accent \widehat on input line 30.
+LaTeX Font Info:    Redeclaring math symbol \braceld on input line 48.
+LaTeX Font Info:    Redeclaring math symbol \bracerd on input line 49.
+LaTeX Font Info:    Redeclaring math symbol \bracelu on input line 50.
+LaTeX Font Info:    Redeclaring math symbol \braceru on input line 51.
+LaTeX Font Info:    Redeclaring math delimiter \lmoustache on input line 53.
+LaTeX Font Info:    Redeclaring math delimiter \rmoustache on input line 55.
+LaTeX Font Info:    Redeclaring math delimiter \arrowvert on input line 57.
+LaTeX Font Info:    Redeclaring math delimiter \Arrowvert on input line 59.
+LaTeX Font Info:    Redeclaring math delimiter \Vert on input line 61.
+LaTeX Font Info:    Redeclaring math delimiter \vert on input line 63.
+LaTeX Font Info:    Redeclaring math delimiter \uparrow on input line 65.
+LaTeX Font Info:    Redeclaring math delimiter \downarrow on input line 67.
+LaTeX Font Info:    Redeclaring math delimiter \updownarrow on input line 69.
+LaTeX Font Info:    Redeclaring math delimiter \Uparrow on input line 71.
+LaTeX Font Info:    Redeclaring math delimiter \Downarrow on input line 73.
+LaTeX Font Info:    Redeclaring math delimiter \Updownarrow on input line 75.
+LaTeX Font Info:    Redeclaring math delimiter \backslash on input line 79.
+LaTeX Font Info:    Redeclaring math delimiter \rangle on input line 81.
+LaTeX Font Info:    Redeclaring math delimiter \langle on input line 83.
+LaTeX Font Info:    Redeclaring math delimiter \rbrace on input line 85.
+LaTeX Font Info:    Redeclaring math delimiter \lbrace on input line 87.
+LaTeX Font Info:    Redeclaring math delimiter \rceil on input line 89.
+LaTeX Font Info:    Redeclaring math delimiter \lceil on input line 91.
+LaTeX Font Info:    Redeclaring math delimiter \rfloor on input line 93.
+LaTeX Font Info:    Redeclaring math delimiter \lfloor on input line 95.
+LaTeX Font Info:    Redeclaring math delimiter \lgroup on input line 97.
+LaTeX Font Info:    Redeclaring math delimiter \rgroup on input line 99.
+LaTeX Font Info:    Redeclaring math delimiter \bracevert on input line 101.
 )
 (C:\Program Files\MiKTeX\tex/latex/pgf/frontendlayer\tikz.sty
 (C:\Program Files\MiKTeX\tex/latex/pgf/basiclayer\pgf.sty
@@ -752,6 +786,27 @@ Package: enumitem 2019/06/20 v3.9 Customized lists
 \enit@count@id=\count332
 \enitdp@description=\count333
 )
+(C:\Program Files\MiKTeX\tex/latex/tools\tabularx.sty
+Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
+
+(C:\Program Files\MiKTeX\tex/latex/tools\array.sty
+Package: array 2022/09/04 v2.5g Tabular extension package (FMi)
+\col@sep=\dimen319
+\ar@mcellbox=\box75
+\extrarowheight=\dimen320
+\NC@list=\toks39
+\extratabsurround=\skip76
+\backup@length=\skip77
+\ar@cellbox=\box76
+)
+\TX@col@width=\dimen321
+\TX@old@table=\dimen322
+\TX@old@col=\dimen323
+\TX@target=\dimen324
+\TX@delta=\dimen325
+\TX@cols=\count334
+\TX@ftn=\toks40
+)
 (D:\MiKTex\tex/latex/newtx\newtxtext.sty
 Package: newtxtext 2023/08/20 v1.724(Michael Sharpe) latex and unicode latex su
 pport for TeXGyreTermesX
@@ -763,23 +818,23 @@ Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
 
 (C:\Program Files\MiKTeX\tex/generic/xkeyval\xkeyval.tex
 (C:\Program Files\MiKTeX\tex/generic/xkeyval\xkvutils.tex
-\XKV@toks=\toks39
-\XKV@tempa@toks=\toks40
+\XKV@toks=\toks41
+\XKV@tempa@toks=\toks42
 )
-\XKV@depth=\count334
+\XKV@depth=\count335
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
 (C:\Program Files\MiKTeX\tex/latex/etoolbox\etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count335
+\etb@tempcnta=\count336
 )
 (C:\Program Files\MiKTeX\tex/latex/base\textcomp.sty
 Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
 )
 (D:\MiKTex\tex/latex/xstring\xstring.sty
 (D:\MiKTex\tex/generic/xstring\xstring.tex
-\xs_counta=\count336
-\xs_countb=\count337
+\xs_counta=\count337
+\xs_countb=\count338
 )
 Package: xstring 2023/08/22 v1.86 String manipulations (CT)
 )
@@ -793,8 +848,8 @@ LaTeX Font Info:    Setting ntxOsF sub-encoding to TS1/0 on input line 21.
 LaTeX Font Info:    Setting ntxTOsF sub-encoding to TS1/0 on input line 21.
 
 (D:\MiKTex\tex/generic/binhex\binhex.tex)
-\ntx@tmpcnta=\count338
-\ntx@cnt=\count339
+\ntx@tmpcnta=\count339
+\ntx@cnt=\count340
 
 ntx@otftexttrue
 LaTeX Info: Redefining \oldstylenums on input line 475.
@@ -802,22 +857,22 @@ LaTeX Info: Redefining \liningnums on input line 479.
 (D:\MiKTex\tex/latex/realscripts\realscripts.sty
 Package: realscripts 2016/02/13 v0.3d Access OpenType subscripts and superscrip
 ts
-\subsupersep=\dimen319
+\subsupersep=\dimen326
 )
-\tx@sixem=\dimen320
-\tx@y=\dimen321
-\tx@x=\dimen322
-\tx@tmpdima=\dimen323
-\tx@tmpdimb=\dimen324
-\tx@tmpdimc=\dimen325
-\tx@tmpdimd=\dimen326
-\tx@tmpdime=\dimen327
-\tx@tmpdimf=\dimen328
-\tx@dimA=\dimen329
-\tx@dimAA=\dimen330
-\tx@dimB=\dimen331
-\tx@dimBB=\dimen332
-\tx@dimC=\dimen333
+\tx@sixem=\dimen327
+\tx@y=\dimen328
+\tx@x=\dimen329
+\tx@tmpdima=\dimen330
+\tx@tmpdimb=\dimen331
+\tx@tmpdimc=\dimen332
+\tx@tmpdimd=\dimen333
+\tx@tmpdime=\dimen334
+\tx@tmpdimf=\dimen335
+\tx@dimA=\dimen336
+\tx@dimAA=\dimen337
+\tx@dimB=\dimen338
+\tx@dimBB=\dimen339
+\tx@dimC=\dimen340
 )
 (D:\MiKTex\tex/latex/newtx\newtxmath.sty
 Package: newtxmath 2023/07/30 v1.723
@@ -826,13 +881,13 @@ Package: newtxmath 2023/07/30 v1.723
 ) (C:\Program Files\MiKTeX\tex/latex/oberdiek\centernot.sty
 Package: centernot 2016/05/16 v1.4 Centers the not symbol horizontally (HO)
 )
-\tx@cntz=\count340
+\tx@cntz=\count341
 
 (D:\MiKTex\tex/generic/binhex\binhex.tex)
-\tx@Isdigit=\count341
-\tx@IsAlNum=\count342
-\tx@tA=\toks41
-\tx@tB=\toks42
+\tx@Isdigit=\count342
+\tx@IsAlNum=\count343
+\tx@tA=\toks43
+\tx@tB=\toks44
 \tx@su=\read3
 
 amsthm NOT loaded
@@ -876,7 +931,7 @@ LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
 (Font)                  OML/cmm/b/it --> OML/ntxmi/m/it on input line 501.
 LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
 (Font)                  OML/ntxmi/m/it --> OML/ntxmi/b/it on input line 502.
-\symlettersA=\mathgroup6
+\symlettersA=\mathgroup7
 LaTeX Font Info:    Overwriting symbol font `lettersA' in version `bold'
 (Font)                  U/ntxmia/m/it --> U/ntxmia/b/it on input line 557.
 LaTeX Font Info:    Redeclaring math alphabet \mathfrak on input line 559.
@@ -891,10 +946,10 @@ LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
 (Font)                  OMS/cmsy/b/n --> LMS/ntxsy/m/n on input line 578.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
 (Font)                  LMS/ntxsy/m/n --> LMS/ntxsy/b/n on input line 579.
-\symAMSm=\mathgroup7
+\symAMSm=\mathgroup8
 LaTeX Font Info:    Overwriting symbol font `AMSm' in version `bold'
 (Font)                  U/ntxsym/m/n --> U/ntxsym/b/n on input line 604.
-\symsymbolsC=\mathgroup8
+\symsymbolsC=\mathgroup9
 LaTeX Font Info:    Overwriting symbol font `symbolsC' in version `bold'
 (Font)                  U/ntxsyc/m/n --> U/ntxsyc/b/n on input line 625.
 LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 638.
@@ -910,11 +965,11 @@ LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
 (Font)                  OMX/cmex/m/n --> LMX/ntxexx/m/n on input line 638.
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
 (Font)                  LMX/ntxexx/m/n --> LMX/ntxexx/b/n on input line 639.
-\symlargesymbolsTXA=\mathgroup9
+\symlargesymbolsTXA=\mathgroup10
 LaTeX Font Info:    Overwriting symbol font `largesymbolsTXA' in version `bold'
 
 (Font)                  U/ntxexa/m/n --> U/ntxexa/b/n on input line 653.
-\tx@sbptoks=\toks43
+\tx@sbptoks=\toks45
 LaTeX Font Info:    Redeclaring math delimiter \lfloor on input line 876.
 LaTeX Font Info:    Redeclaring math delimiter \rfloor on input line 877.
 LaTeX Font Info:    Redeclaring math delimiter \lceil on input line 878.
@@ -931,9 +986,9 @@ LaTeX Font Info:    Redeclaring math accent \vec on input line 2031.
 LaTeX Info: Redefining \Bbbk on input line 2821.
 LaTeX Info: Redefining \not on input line 2969.
 )
-\c@taskcounter=\count343
-\c@subtaskcounter=\count344
-\c@subsubtaskcounter=\count345
+\c@taskcounter=\count344
+\c@subtaskcounter=\count345
+\c@subsubtaskcounter=\count346
 ) (D:\MiKTex\tex/latex/lastpage\lastpage.sty
 Package: lastpage 2023/10/06 v2.0d lastpage: 2.09 or 2e? (HMM)
 
@@ -943,45 +998,24 @@ MM)
 
 (D:\MiKTex\tex/latex/lastpage\lastpagemodern.sty
 Package: lastpagemodern 2023-10-06 v2.0d Refers to last page's name (HMM; JPG)
-\c@lastpagecount=\count346
+\c@lastpagecount=\count347
 ) 
 )) (D:\MiKTex\tex/latex/fancyhdr\fancyhdr.sty
 Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
 
-\f@nch@headwidth=\skip76
-\f@nch@O@elh=\skip77
-\f@nch@O@erh=\skip78
-\f@nch@O@olh=\skip79
-\f@nch@O@orh=\skip80
-\f@nch@O@elf=\skip81
-\f@nch@O@erf=\skip82
-\f@nch@O@olf=\skip83
-\f@nch@O@orf=\skip84
+\f@nch@headwidth=\skip78
+\f@nch@O@elh=\skip79
+\f@nch@O@erh=\skip80
+\f@nch@O@olh=\skip81
+\f@nch@O@orh=\skip82
+\f@nch@O@elf=\skip83
+\f@nch@O@erf=\skip84
+\f@nch@O@olf=\skip85
+\f@nch@O@orf=\skip86
 ))
-(C:\Program Files\MiKTeX\tex/latex/tools\tabularx.sty
-Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
-
-(C:\Program Files\MiKTeX\tex/latex/tools\array.sty
-Package: array 2022/09/04 v2.5g Tabular extension package (FMi)
-\col@sep=\dimen334
-\ar@mcellbox=\box75
-\extrarowheight=\dimen335
-\NC@list=\toks44
-\extratabsurround=\skip85
-\backup@length=\skip86
-\ar@cellbox=\box76
-)
-\TX@col@width=\dimen336
-\TX@old@table=\dimen337
-\TX@old@col=\dimen338
-\TX@target=\dimen339
-\TX@delta=\dimen340
-\TX@cols=\count347
-\TX@ftn=\toks45
-)
 \symCJKmath=\mathgroup255
 LaTeX Font Info:    Overwriting symbol font `CJKmath' in version `bold'
-(Font)                  TU/SimSun(0)/m/n --> TU/SimSun(0)/b/n on input line 5.
+(Font)                  TU/SimSun(0)/m/n --> TU/SimSun(0)/b/n on input line 4.
 
 (D:\MiKTex\tex/latex/newtx\TeXGyreTermesX.fontspec)
 
@@ -1040,52 +1074,52 @@ language=dflt;-ss05;+tnum;+lnum;+smcp;+pcap;mapping=tex-text;"
 ;language=dflt;-ss05;+tnum;+lnum;+smcp;+pcap;mapping=tex-text;"
 
 LaTeX Font Info:    Font shape `TU/TeXGyreTermesX(0)/m/n' will be
-(Font)              scaled to size 10.0pt on input line 5.
+(Font)              scaled to size 10.0pt on input line 4.
  (答题卡.aux)
 \openout1 = `答题卡.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 5.
+LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 4.
 LaTeX Font Info:    Trying to load font information for OML+ntxmi on input line
- 5.
+ 4.
 
 (D:\MiKTex\tex/latex/newtx\omlntxmi.fd
 File: omlntxmi.fd 2015/08/25 Fontinst v1.933 font definitions for OML/ntxmi.
 )
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 4.
 LaTeX Font Info:    Trying to load font information for U+ntxexa on input line 
-5.
+4.
  (D:\MiKTex\tex/latex/newtx\untxexa.fd
 File: untxexa.fd 2012/04/16 Fontinst v1.933 font definitions for U/ntxexa.
 )
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for LMS/ntxsy/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for LMS/ntxsy/m/n on input line 4.
 LaTeX Font Info:    Trying to load font information for LMS+ntxsy on input line
- 5.
+ 4.
 
 (D:\MiKTex\tex/latex/newtx\lmsntxsy.fd
 File: lmsntxsy.fd 2016/07/02 Fontinst v1.933 font definitions for LMS/ntxsy.
 )
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 4.
 LaTeX Font Info:    Trying to load font information for LMX+ntxexx on input lin
-e 5.
+e 4.
  (D:\MiKTex\tex/latex/newtx\lmxntxexx.fd
 File: lmxntxexx.fd 2016/07/03 Fontinst v1.933 font definitions for LMX/ntxexx.
 )
-LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    ... okay on input line 4.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -1121,54 +1155,62 @@ LaTeX Font Info:    ... okay on input line 5.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Info: Command `\dddot' is already robust on input line 5.
-LaTeX Info: Command `\ddddot' is already robust on input line 5.
+LaTeX Info: Command `\dddot' is already robust on input line 4.
+LaTeX Info: Command `\ddddot' is already robust on input line 4.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 LaTeX Font Info:    Font shape `TU/TeXGyreTermesX(0)/b/n' will be
-(Font)              scaled to size 10.0pt on input line 6.
+(Font)              scaled to size 10.0pt on input line 5.
 LaTeX Font Info:    Trying to load font information for OT1+minntx on input lin
-e 6.
+e 5.
 (D:\MiKTex\tex/latex/newtx\ot1minntx.fd
 File: ot1minntx.fd 2022/01/20 v1.0 font definition file for OT1/minntx
 )
-LaTeX Font Info:    Trying to load font information for U+msa on input line 6.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 5.
 
 (C:\Program Files\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 6.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 5.
 
 (C:\Program Files\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+ntxmia on input line 
-6.
+LaTeX Font Info:    Trying to load font information for OMX+yhex on input line 
+5.
 
-(D:\MiKTex\tex/latex/newtx\untxmia.fd
+(D:\MiKTex\tex/latex/yhmath\omxyhex.fd
+File: OMXyhex.fd 
+File: OMXyhex.fd 2013/07/03 v1.1 YH's humble contribution to TeX maths (NP)
+)
+LaTeX Font Info:    Trying to load font information for U+ntxmia on input line 
+5.
+ (D:\MiKTex\tex/latex/newtx\untxmia.fd
 File: untxmia.fd 2018/04/14 Fontinst v1.933 font definitions for U/ntxmia.
 )
 LaTeX Font Info:    Trying to load font information for U+ntxsym on input line 
-6.
- (D:\MiKTex\tex/latex/newtx\untxsym.fd
+5.
+
+(D:\MiKTex\tex/latex/newtx\untxsym.fd
 File: untxsym.fd 2023/08/16 Fontinst v1.933 font definitions for U/ntxsym.
 )
 LaTeX Font Info:    Trying to load font information for U+ntxsyc on input line 
-6.
-
-(D:\MiKTex\tex/latex/newtx\untxsyc.fd
+5.
+ (D:\MiKTex\tex/latex/newtx\untxsyc.fd
 File: untxsyc.fd 2012/04/12 Fontinst v1.933 font definitions for U/ntxsyc.
 )
 LaTeX Font Info:    Font shape `TU/TeXGyreTermesX(0)/b/n' will be
-(Font)              scaled to size 14.4pt on input line 7.
-LaTeX Font Info:    Font shape `TU/TeXGyreTermesX(0)/m/n' will be
-(Font)              scaled to size 14.4pt on input line 8.
+(Font)              scaled to size 14.4pt on input line 6.
+
+Overfull \hbox (1.66667pt too wide) in paragraph at lines 5--7
+|  [] 
+ []
+
 LaTeX Font Info:    Font shape `TU/TeXGyreTermesX(0)/m/sl' will be
-(Font)              scaled to size 10.0pt on input line 43.
- [1
+(Font)              scaled to size 10.0pt on input line 41.
+[1
 
-] [2] [3] [4]
-
+] [2] [3] [4] 
 enddocument/afterlastpage: lastpage setting LastPage.
 (答题卡.aux)
  ***********
@@ -1177,12 +1219,12 @@ L3 programming layer <2022/08/05>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 25469 strings out of 409954
- 546692 string characters out of 5785456
+ 25556 strings out of 409954
+ 548078 string characters out of 5785456
  1934674 words of memory out of 5000000
- 46760 multiletter control sequences out of 15000+600000
- 573747 words of font info for 113 fonts, out of 8000000 for 9000
+ 46839 multiletter control sequences out of 15000+600000
+ 589249 words of font info for 150 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 132i,14n,135p,597b,521s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 132i,14n,135p,576b,521s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on 答题卡.pdf (4 pages).

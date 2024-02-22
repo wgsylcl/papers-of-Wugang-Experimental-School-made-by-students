@@ -1,0 +1,16 @@
+\documentclass[11pt]{article}
+\usepackage{mathpaper}
+\title{培训班小题}
+\date{2024年2月4日}
+\author{lcl}
+
+\begin{document}
+\maketitle
+\section*{题目}
+已知$m$、$n$是两个正整数，且$n \leq 100$，求证：分数$\frac{m}{n}$在化成十进制小数时，其小数点后不可能有连续三位是$1$、$6$、$7$.
+\section*{解答}
+证明：\par
+用反证法，假设$\frac{m}{n}$的十进制小数中小数点后第$(k+1)$、$(k+2)$、$(k+3)$位（$k$是正整数）分别为$1$、$6$、$7$，那么可设$\frac{m}{n}=\overline{A.a_1a_2 \dots a_{k-1}a_k167a_{k+4}a_{k+5} \dots}$，其中$A$是正整数、$a_i$（$i$为正整数）是小于$10$的自然数，于是有$10^k \cdot \frac{m}{n}=\overline{Aa_1a_2 \dots a_{k-1}a_k}+\overline{0.167a_{k+4}a_{k+5}\dots}$，这样$\frac{10^k \cdot m - n \cdot \overline{Aa_1a_2 \dots a_{k-1}a_k}}{n} = \overline{0.167a_{k+4}a_{k+5}\dots}$ \par
+记$b=10^k \cdot m - n \cdot \overline{Aa_1a_2 \dots a_{k-1}a_k}$，显然$b$是一个正整数，那么$\frac{b}{n}=\overline{0.167a_{k+4}a_{k+5}\dots}$，于是有$0.167 < \frac{b}{n} < 0.168$，故$0.167n < b < 0.168n \Rightarrow 1002n < 6000b < 1008n \Rightarrow 2n < 1000(6b-n) <8n$ \par
+然而$n$是不大于$100$的正整数，因此显然上式不可能成立，于是假设不成立，因此分数$\frac{m}{n}$在化成十进制小数时，其小数点后不可能有连续三位是$1$、$6$、$7$，证毕.
+\end{document}

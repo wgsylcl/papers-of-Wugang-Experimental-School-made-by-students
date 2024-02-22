@@ -1,0 +1,43 @@
+\documentclass[10pt]{article}
+\usepackage{mathpaper}
+
+\begin{document}
+\setcounter{taskcounter}{23}
+\begin{questions}{}
+\question 已知在平面直角坐标系$xOy$中，动点$P$到点$F(0,1)$的距离恒等于其到直线$y=-1$的距离，记$P$的轨迹为$E$.
+\begin{subquestions}
+    \subquestion 求$E$的解析式.
+    \subquestion 已知平面内一直线$l_1$过点$M(-1,-1)$，并与$E$交于$A$、$B$两点，过$A$作比例系数为$-\frac{1}{2}$的直线$l_2$，交$E$于另一点$C$.
+    \begin{subsubquestions}
+        \subsubquestion 求证：直线$BC$过定点.
+        \subsubquestion 记\circnum{1}中的定点为$H$，若$S_{\triangle ABH}$的面积不大于$5$，求直线$l_1$比例系数的取值范围.
+    \end{subsubquestions}
+\end{subquestions}
+\end{questions}
+
+\setcounter{taskcounter}{23}
+\begin{questions}{【解析】}
+    \question 解：
+    \begin{subquestions}
+        \subquestion 设$P(x_0,y_0)$，依题意，$x_0^2+(y_0-1)^2=(y_0+1)^2$，化简后得到$y_0=\frac{1}{4}x_0^2$，故$E:y=\frac{1}{4}x^2$.
+        \subquestion \begin{subsubquestions}
+            \subsubquestion 设$A(4a,4a^2)$、$B(4b,4b^2)$、$C(4c,4c^2)$，$AB:y=k_1x+b_1$，则$\begin{cases}
+                4a^2 = 4ak_1+b_1 \\
+                4b^2 = 4bk_1+b_1
+            \end{cases}$，解得$\begin{cases}
+                k_1 = a+b \\
+                b_1 = -4ab
+            \end{cases}$，故$AB:y=(a+b)x-4ab$. \par
+            同理，$BC:y=(b+c)x-4bc$、$CA:y=(c+a)x-4ca$. \par
+            $\because AB$过$M(-1,-1)$，$\therefore -1=-a-b-4ab \Rightarrow 4ab+a+b=1$. \par
+            $\because k_{AC}=-\frac{1}{2}$，$\therefore c+a=-\frac{1}{2} \Rightarrow a=-c-\frac{1}{2}$，代入上式得到$4b(-c-\frac{1}{2})-c-\frac{1}{2}+b=1 \Rightarrow -(b+c)-4bc=\frac{3}{2}$. \par
+            $\therefore BC$过$(-1,\frac{3}{2})$.
+            \subsubquestion 令$k=a+b$，则$k=k_{AB}$. \par
+            依题意，$H(-1,\frac{3}{2})$，则$MH \bot x\text{轴}$，并且$MH=\frac{5}{2}$，则$S_{\triangle ABH}=\frac{1}{2}MH|x_B-x_A|=\frac{5}{4}|4b-4a|=5|a-b|$. \par
+            $\because S_{\triangle ABH} \leq 5$，$\therefore |a-b| \leq 1 \Rightarrow (a-b)^2 \leq 1 \Rightarrow (a+b)^2-4ab \leq 1 \Rightarrow (a+b)^2+a+b-1 \leq 1 \Rightarrow k^2+k-2 \leq 0 \Rightarrow -2 \leq k \leq 1$. \par
+            $\because AB:y=(a+b)x-4ab=kx+k-1$与抛物线有交点，$\therefore x^2-4kx-4k+4=0$有实数解，于是$16k^2-4(-4k+4) \geq 0 \Rightarrow k^2+k-1 \geq 0$，解得$k \geq \frac{\sqrt{5}-1}{2}$或$k \leq -\frac{\sqrt{5}+1}{2}$. \par
+            综上，$\frac{\sqrt{5}-1}{2} \leq k \leq 1$或$-2 \leq k \leq -\frac{\sqrt{5}+1}{2}$.
+        \end{subsubquestions}
+    \end{subquestions}
+\end{questions}
+\end{document}

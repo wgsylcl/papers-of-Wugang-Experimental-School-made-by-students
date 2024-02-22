@@ -1,0 +1,53 @@
+\documentclass[10pt]{article}
+\usepackage{mathpaper}
+
+\begin{document}
+\textbf{【2023 武汉四调】}
+\begin{figure}[!htb]
+    \centering
+    \smallpicture{whsdpwxyz.png}{0.6}
+\end{figure}\par
+
+\begin{questions}{}
+    \question \textbf{【第3题解答】} \\
+    由（1）知$C_1:y=x^2-2x-3=(x-1)^2-4$，$\because C_2$由$C_1$平移得到，且顶点为原点，$\therefore C_2:y=x^2$.\\
+    设$M(m,0)$、$PQ:y=kx+b$，则有$0=km+b \Rightarrow b=-km \Rightarrow PQ:y=kx-km$，故$P(p,kp-km)$、$Q(q,kq-km)$ \\
+    联立$C_2$与$PQ$的解析式，有
+    $\begin{cases}
+        y=kx-km \\
+        y=x^2
+    \end{cases}$，整理得$x^2-kx+km=0$.\\
+    $\because x_P$、$x_Q$是这个方程的两根，$\therefore$由韦达定理，有
+    $\begin{cases}
+        p+q=k \\
+        pq=km
+    \end{cases} (*)$\\
+    （接下来的地方正常情况下应使用相似，此处因为还没学改为勾股定理）\\
+    $\because \angle PNQ=90^{\circ} \ \therefore PQ^2=PN^2+QN^2$，即
+    $$\begin{aligned}
+        (x_P-x_Q)^2+(y_P-y_Q)^2 &= (x_P-x_N)^2+(y_P-y_N)^2+(x_Q-x_N)^2+(y_Q-y_N)^2 \\
+        x_P^2-2x_Px_Q+x_Q^2+y_P^2-2y_Py_Q+y_Q^2 &= x_P^2-2x_Px_N+x_N^2+y_P^2-2y_Py_N+y_N^2+x_Q^2-2x_Qx_N+x_N^2+y_Q^2-2y_Qy_N+y_N^2 \\
+        x_Px_Q+y_Py_Q &= x_Px_N+y_Py_N+x_Qx_N+y_Qy_N-x_N^2-y_N^2
+    \end{aligned}$$
+    又$\because N(0,3)$，$\therefore$将$P$、$Q$、$N$三点坐标代入，有
+    $$\begin{aligned}
+        pq+(kp-km)(kq-km) &= 3(kp-km)+3(kq-km)-9 \\
+        pq+k^2(p-m)(q-m) &= 3k(p-m)+3k(q-m)-9 \\
+        pq+k^2[pq-m(p+q)+m^2] &= 3k(p+q-2m)-9
+    \end{aligned}$$
+    将$(*)$代入，有
+    $$\begin{aligned}
+        km+k^2(km-mk+m^2) &= 3k(k-2m)-9 \\
+        (m^2-3)k^2+7mk+9 &= 0
+    \end{aligned}$$
+    接下来分情况解这个方程：
+    \begin{subsubquestions}
+        \subsubquestion 当$m^2-3=0$时，有$m=\pm \sqrt{3}$，$\because m>0$，$\therefore m=\sqrt{3}$，
+        此时原方程化为$7\sqrt{3}k+9=0$，解得$k=-\frac{3}{7}\sqrt{3}$，符合要求.\\
+        \subsubquestion 当$m^2-3 \neq 0$时，由上知$m \neq \sqrt{3}$，此时$A=m^2-3$、$B=7m$、$C=9$ \\
+        $\because$直线$PQ$唯一，$\therefore$原方程两根相同，即$\Delta=0$，然而$\Delta=B^2-4AC=13m^2+108>0$，故此情况不成立.\\
+    \end{subsubquestions}
+    综上所述，$m=\sqrt{3}$.
+\end{questions}
+
+\end{document}

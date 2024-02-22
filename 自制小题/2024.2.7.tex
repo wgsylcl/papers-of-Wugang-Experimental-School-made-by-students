@@ -1,0 +1,13 @@
+\documentclass[11pt]{article}
+\usepackage{mathpaper}
+
+\begin{document}
+\section*{题目}
+解不等式$$\frac{2^{x+1}}{2^x+1}+\frac{2^x}{2^{x-1}+1}+2x-3>0$$
+\section*{解答}
+解：\par
+注意到原不等式可化为$$\frac{2^{x+1}}{2^x+1}+x-1+\frac{2^{(x-1)+1}}{2^{x-1}+1}+(x-1)-1>0$$ \par
+于是令$f(x)=\frac{2^{x+1}}{2^x+1}+x-1$，则原不等式变为$f(x)+f(x-1)>0$ \par
+可以证明（证明比较简单，交给读者）$f(x)$是奇函数，于是原不等式变为$f(x)>f(1-x)$ \par
+事实上，还可以证明$f(x)$在$\mathbb{R}$上单调递增（证明比较简单，交给读者），于是原不等式变为$x>1-x$，解得$x>\frac{1}{2}$
+\end{document}

@@ -1,0 +1,21 @@
+\documentclass[11pt]{article}
+\usepackage{mathpaper}
+
+\title{自制小题}
+\date{2024年1月27日}
+\author{lcl}
+
+\begin{document}
+\maketitle
+【2024九省联考T11改】\par
+求所有的$f(x)$，使得：
+\circnum{1} $f(\frac{1}{2}) \neq 0$；\circnum{2} 对于任意实数$x$、$y$，恒有$f(x+y)+f(x)f(y)=4xy$.\par
+【解析】\par
+注意到\circnum{2}中等式左边仅含有关函数$f$的项，右边为$4xy$，而\circnum{1}给出条件$f(\frac{1}{2}) \neq 0$，故考虑令$x=\frac{1}{2}$、$y=0$，有$f(\frac{1}{2})+f(\frac{1}{2})f(0)=0$，故$f(0)=-1$.\\
+
+由于已经知道了有关$f(0)$和$f(\frac{1}{2})$的信息，故可考虑令$x=\frac{1}{2}$、$y=-\frac{1}{2}$，这样有$f(0)+f(\frac{1}{2})f(-\frac{1}{2})=-1$，于是$f(-\frac{1}{2})=0$.\par
+
+进一步，注意到\circnum{2}中等式左边有乘积项$f(x)f(y)$，而$f(-\frac{1}{2})=0$，故考虑令$y=-\frac{1}{2}$，有$f(x-\frac{1}{2})+f(x)f(-\frac{1}{2})=-2x \Rightarrow f(x-\frac{1}{2})=-2(x-\frac{1}{2})-1$，用$x$替换掉$x-\frac{1}{2}$，就得到$f(x)=-2x-1$.\par
+
+综上所述，$f(x)=-2x-1$.
+\end{document}
