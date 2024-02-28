@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 23.10.12) (preloaded format=xelatex 2023.10.15)  23 FEB 2024 09:10
+This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 23.10.12) (preloaded format=xelatex 2023.10.15)  28 FEB 2024 22:08
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -674,16 +674,22 @@ File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
 (C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibra
 rytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
-))) (D:\MiKTex\tex/latex/pgf-pie\pgf-pie.sty
+)))
+(C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibra
+ryintersections.code.tex
+(C:\Program Files\MiKTeX\tex/generic/pgf/libraries\pgflibraryintersections.code
+.tex (C:\Program Files\MiKTeX\tex/generic/pgf/libraries\pgflibraryfpu.code.tex)
+\pgf@intersect@solutions=\count326
+)) (D:\MiKTex\tex/latex/pgf-pie\pgf-pie.sty
 Package: pgf-pie 2022/06/14 v0.7 Some LaTeX macros for pie chart by using PGF/T
 ikz package.
 
 (D:\MiKTex\tex/latex/pgf-pie\tikzlibrarypie.code.tex
 (D:\MiKTex\tex/latex/carlisle\scalefnt.sty)
 \pgfpie@angleEnd=\dimen304
-\pgfpie@explodeLength=\count326
-\pgfpie@colorLength=\count327
-\pgfpie@sliceLength=\count328
+\pgfpie@explodeLength=\count327
+\pgfpie@colorLength=\count328
+\pgfpie@sliceLength=\count329
 ))
 (D:\MiKTex\tex/latex/psnfss\pifont.sty
 Package: pifont 2020/03/25 PSNFSS-v9.3 Pi font support (SPQR) 
@@ -706,10 +712,10 @@ Package: subfigure 2002/07/30 v2.1.4 subfigure package
 \subfigbottomskip=\skip67
 \subfigcapmargin=\dimen306
 \subfiglabelskip=\skip68
-\c@subfigure=\count329
-\c@lofdepth=\count330
-\c@subtable=\count331
-\c@lotdepth=\count332
+\c@subfigure=\count330
+\c@lofdepth=\count331
+\c@subtable=\count332
+\c@lotdepth=\count333
 
 ****************************************
 * Local config file subfigure.cfg used *
@@ -733,8 +739,8 @@ Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
 \caption@hangindent=\dimen314
 Package caption Info: Standard document class detected.
 )
-\c@caption@flags=\count333
-\c@continuedfloat=\count334
+\c@caption@flags=\count334
+\c@continuedfloat=\count335
 Package caption Info: subfigure package is loaded.
 )
 (C:\Program Files\MiKTeX\tex/generic/pgf/libraries\pgflibraryarrows.meta.code.t
@@ -794,8 +800,8 @@ Package: enumitem 2019/06/20 v3.9 Customized lists
 \enit@outerparindent=\dimen319
 \enit@toks=\toks38
 \enit@inbox=\box74
-\enit@count@id=\count335
-\enitdp@description=\count336
+\enit@count@id=\count336
+\enitdp@description=\count337
 )
 (C:\Program Files\MiKTeX\tex/latex/tools\tabularx.sty
 Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
@@ -815,12 +821,12 @@ Package: array 2022/09/04 v2.5g Tabular extension package (FMi)
 \TX@old@col=\dimen324
 \TX@target=\dimen325
 \TX@delta=\dimen326
-\TX@cols=\count337
+\TX@cols=\count338
 \TX@ftn=\toks40
 )
-\c@taskcounter=\count338
-\c@subtaskcounter=\count339
-\c@subsubtaskcounter=\count340
+\c@taskcounter=\count339
+\c@subtaskcounter=\count340
+\c@subsubtaskcounter=\count341
 )
 (D:\MiKTex\tex/latex/lastpage\lastpage.sty
 Package: lastpage 2023/10/06 v2.0d lastpage: 2.09 or 2e? (HMM)
@@ -831,7 +837,7 @@ MM)
 
 (D:\MiKTex\tex/latex/lastpage\lastpagemodern.sty
 Package: lastpagemodern 2023-10-06 v2.0d Refers to last page's name (HMM; JPG)
-\c@lastpagecount=\count341
+\c@lastpagecount=\count342
 ) 
 )) (D:\MiKTex\tex/latex/fancyhdr\fancyhdr.sty
 Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
@@ -1038,7 +1044,7 @@ Overfull \hbox (1.66667pt too wide) in paragraph at lines 5--7
 LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/m/sl' in size <10> not avai
 lable
 (Font)              Font shape `TU/TimesNewRoman(0)/m/it' tried instead on inpu
-t line 80.
+t line 79.
 [1
 
 ]
@@ -1055,12 +1061,12 @@ L3 programming layer <2022/08/05>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 23023 strings out of 409954
- 528939 string characters out of 5785456
+ 23629 strings out of 409954
+ 543152 string characters out of 5785456
  1959674 words of memory out of 5000000
- 44371 multiletter control sequences out of 15000+600000
+ 44968 multiletter control sequences out of 15000+600000
  564509 words of font info for 103 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 132i,13n,135p,577b,1073s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 132i,13n,135p,583b,1090s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on 中考模拟一.pdf (4 pages).

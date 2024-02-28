@@ -223,8 +223,12 @@
                 \coordinate[label=below right:{$B$}] (B) at (3,0);
                 \coordinate[label=left:{$D$}] (D) at (0,-3);
                 \draw (-1.44949,2) parabola bend (1,-4) (3.44949,2);
-                \coordinate[label=right:{$F$}] (F) at (3.23607,1);
-                \draw (A) -- (F) -- (B);
+                \coordinate[label=right:{$F$}] (F) at (2.5,-1.75);
+                \draw[name path=AF] (A) -- (F);
+                \draw[name path=BD] (B) -- (D);
+                \draw (D) -- (F);
+                \path[name intersections={of = AF and BD,by=E}];
+                \node[above] at (E) {$E$};
             \end{tikzpicture}}
         \end{figure}\addspace
         \subquestion \qquad
@@ -238,7 +242,7 @@
                 \coordinate[label=left:{$M$}] (M) at (-1.37239,1.88346);
                 \coordinate[label=right:{$N$}] (N) at (1.68534,2.84038);
                 \coordinate[label=above left:{$P$}] (P) at (1,1);
-                \coordinate[label=below right:{$E$}] (E) at (0.15648,-2.31295);
+                \coordinate[label=right:{$Q$}] (E) at (0.15648,-2.31295);
                 \draw (-2,4) parabola bend (0,0) (2,4);
                 \draw (M) -- (N) -- (P) -- cycle;
                 \draw (M) -- (E) -- (N);
